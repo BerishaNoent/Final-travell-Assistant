@@ -1,0 +1,87 @@
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 600px;
+   max-width: 600px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+
+
+#submitForm {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.select2 {
+    width: 100% !important;
+}
+#fetchData {
+    color: rgb(40, 40, 155);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gps-text {
+    margin-left: 5px;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: '5px';
+    margin-bottom:0px;
+
+}
+.my-select{
+    margin-top:10px;
+    height:15px;
+    width:90%;
+}
+#fetchData i {
+    margin-right: 5px;
+}
+
+#status {
+    color: red;
+}
+.clear-button{
+    margin-top: 3px;
+}

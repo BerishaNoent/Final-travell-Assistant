@@ -1,0 +1,103 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user-frontend
+  template:
+    metadata:
+      labels:
+        app: user-frontend
+    spec:
+      containers:
+      - name: user-frontend
+        image: noenti/travelling-assistant:user-frontend-newtag
+        ports:
+        - containerPort: 3002
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: car-rental-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: car-rental-frontend
+  template:
+    metadata:
+      labels:
+        app: car-rental-frontend
+    spec:
+      containers:
+      - name: car-rental-frontend
+        image: noenti/travelling-assistant:car-rental-frontend-newtag
+        ports:
+        - containerPort: 3009
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: combined-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: combined-frontend
+  template:
+    metadata:
+      labels:
+        app: combined-frontend
+    spec:
+      containers:
+      - name: combined-frontend
+        image: noenti/travelling-assistant:combined-frontend-v12
+        ports:
+        - containerPort: 3008
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotel-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hotel-frontend
+  template:
+    metadata:
+      labels:
+        app: hotel-frontend
+    spec:
+      containers:
+      - name: hotel-frontend
+        image: noenti/travelling-assistant:hotel-frontend-newtag
+        ports:
+        - containerPort: 3007
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flight-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flight-frontend
+  template:
+    metadata:
+      labels:
+        app: flight-frontend
+    spec:
+      containers:
+      - name: flight-frontend
+        image: noenti/travelling-assistant:flight-frontend-newtag
+        ports:
+        - containerPort: 3010

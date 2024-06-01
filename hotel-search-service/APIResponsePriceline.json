@@ -1,0 +1,663 @@
+{
+  "getHotelHotelDetails": {
+    "results": {
+      "status": "Success",
+      "status_code": 100,
+      "hotel_data": {
+        "hotel_0": {
+          "id": "700008849",
+          "id_a": "2544429",
+          "id_b": "21794",
+          "id_t": "49229",
+          "id_r": null,
+          "id_g": "d0145485-94a6-4449-8ff6-ec457b9c42db",
+          "active": true,
+          "inventory": {
+            "inventory_0": "agoda",
+            "inventory_1": "booking",
+            "inventory_2": "tweb",
+            "inventory_3": "gar"
+          },
+          "name": "Sheraton Austin Hotel at the Capitol",
+          "property_type": "Hotel",
+          "property_type_id": 14,
+          "semi_opq_enabled": 1,
+          "star_rating": "3.5",
+          "review_rating": 6.6,
+          "review_rating_desc": "Pleasant",
+          "review_count": 742,
+          "rating_count": 742,
+          "review_source": "",
+          "booking_review_url": "",
+          "agoda_review_url": "",
+          "agoda_url": "https://www.agoda.com/partners/partnersearch.aspx?hid=2544429",
+          "booking_url": "https://www.booking.com/hotel/us/sheraton-austin-hotel-at-the-capitol.html",
+          "priceline_url": "https://www.priceline.com/r/?channel=PPN&product=hotel&theme=Nodatedetails&hotelid=49229&rooms=1",
+          "static_low_rate": {
+            "source_currency": null,
+            "source_symbol": null,
+            "source_price": 0,
+            "display_currency": null,
+            "display_symbol": null,
+            "display_price": 0
+          },
+          "thumbnail": "//mobileimg.priceline.com/htlimg/49/49229/thumbnail-150-square.jpg",
+          "thumbnail_hq": {
+            "hundred_fifty_square": "//mobileimg.priceline.com/htlimg/49/49229/thumbnail-150.jpg",
+            "three_hundred_square": "//mobileimg.priceline.com/htlimg/49/49229/thumbnail-300.jpg"
+          },
+          "city": {
+            "id": "800050468",
+            "name": "Austin"
+          },
+          "address": {
+            "city_name": "Austin",
+            "address_line_one": "701 East 11th Street",
+            "state_code": "TX",
+            "state_name": "Texas",
+            "country_code": "US",
+            "country_name": "United States",
+            "zip": "78701"
+          },
+          "geo": {
+            "latitude": 30.27077675,
+            "longitude": -97.73418427
+          },
+          "hotel_chain": {
+            "id": "482",
+            "name": "Sheraton Hotels",
+            "chain_codes_b": "5888^1056^4419^5199",
+            "chain_codes_t": "SI"
+          },
+          "check_in_time": "15:00",
+          "check_out_time": "12:00",
+          "language": "en-US",
+          "hotel_description": "Centrally located in downtown Austin, this hotel is within walking distance of the Red River Music District. Rooms with 32-inch flat-screen TVs are featured. The spacious guest rooms at the Austin Sheraton Hotel offer modern furnishings and cable TV. A work desk and coffee maker are provided for added convenience. The Yard, a southwestern-style restaurant, is located on-site. Guests can enjoy breakfast, lunch and dinner inside or on the outdoor patio. Drinks are available at both the Lobby Bar and Coffee Bar. Sheraton at the Capitol Austin offers a 24-hour business center. The Austin Convention Center and Austin Children’s Museum are a 15-minute walk from the Sheraton Austin. Shopping on 6th Street is within walking distance.",
+          "room_count": "365",
+          "hotel_rank": {
+            "rank": 455,
+            "reviewed_hotel": 531,
+            "hmi_score": 0.4975,
+            "rank_score": null
+          },
+          "rank_data": {
+            "rank": "14.12386",
+            "rank_beta": "2.198029292"
+          },
+          "amenity_data": {
+            "amenity_0": {
+              "id": "13",
+              "name": "Pets Allowed"
+            },
+            "amenity_1": {
+              "id": "14",
+              "name": "Restaurant"
+            },
+            "amenity_2": {
+              "id": "17",
+              "name": "Garden"
+            },
+            "amenity_3": {
+              "id": "20",
+              "name": "Laundry"
+            },
+            "amenity_4": {
+              "id": "21",
+              "name": "Meeting/Banquet Facilities"
+            },
+            "amenity_5": {
+              "id": "24",
+              "name": "Parking"
+            },
+            "amenity_6": {
+              "id": "25",
+              "name": "Valet Parking"
+            },
+            "amenity_7": {
+              "id": "34",
+              "name": "Terrace"
+            },
+            "amenity_8": {
+              "id": "38",
+              "name": "Air Conditioning"
+            },
+            "amenity_9": {
+              "id": "40",
+              "name": "Bar"
+            },
+            "amenity_10": {
+              "id": "47",
+              "name": "24-Hour Front Desk"
+            },
+            "amenity_11": {
+              "id": "48",
+              "name": "Express Check-In/Check-Out"
+            },
+            "amenity_12": {
+              "id": "70",
+              "name": "Dry cleaning"
+            },
+            "amenity_13": {
+              "id": "71",
+              "name": "Internet services"
+            },
+            "amenity_14": {
+              "id": "77",
+              "name": "Non-smoking throughout"
+            },
+            "amenity_15": {
+              "id": "78",
+              "name": "ATM/cash machine on site"
+            },
+            "amenity_16": {
+              "id": "81",
+              "name": "Vending machine (snacks)"
+            },
+            "amenity_17": {
+              "id": "113",
+              "name": "Heating"
+            },
+            "amenity_18": {
+              "id": "114",
+              "name": "Fax/photocopying"
+            },
+            "amenity_19": {
+              "id": "120",
+              "name": "Luggage storage"
+            },
+            "amenity_20": {
+              "id": "121",
+              "name": "WiFi"
+            },
+            "amenity_21": {
+              "id": "130",
+              "name": "Snack bar"
+            },
+            "amenity_22": {
+              "id": "162",
+              "name": "Wheelchair accessible"
+            },
+            "amenity_23": {
+              "id": "196",
+              "name": "golf course (within 3 km)"
+            },
+            "amenity_24": {
+              "id": "223",
+              "name": "Accessible parking"
+            },
+            "amenity_25": {
+              "id": "477",
+              "name": "Facilities for Disabled Guests"
+            },
+            "amenity_26": {
+              "id": "480",
+              "name": "Family Rooms"
+            },
+            "amenity_27": {
+              "id": "701",
+              "name": "Non-smoking Rooms"
+            },
+            "amenity_28": {
+              "id": "966",
+              "name": "Vending Machine (Drinks)"
+            },
+            "amenity_29": {
+              "id": "1062",
+              "name": "Daily Housekeeping"
+            },
+            "amenity_30": {
+              "id": "1554",
+              "name": "Business centre"
+            },
+            "amenity_31": {
+              "id": "1555",
+              "name": "Fitness centre"
+            },
+            "amenity_32": {
+              "id": "1556",
+              "name": "Free WiFi"
+            },
+            "amenity_33": {
+              "id": "1557",
+              "name": "Lift"
+            },
+            "amenity_34": {
+              "id": "1959",
+              "name": "Parking garage"
+            },
+            "amenity_35": {
+              "id": "1992",
+              "name": "Outdoor furniture"
+            },
+            "amenity_36": {
+              "id": "2038",
+              "name": "Fitness"
+            },
+            "amenity_37": {
+              "id": "2447",
+              "name": "Key card access"
+            },
+            "amenity_38": {
+              "id": "2449",
+              "name": "Smoke alarms"
+            },
+            "amenity_39": {
+              "id": "2452",
+              "name": "Fire extinguishers"
+            },
+            "amenity_40": {
+              "id": "2502",
+              "name": "Use of cleaning chemicals that are effective against Coronavirus"
+            },
+            "amenity_41": {
+              "id": "2562",
+              "name": "Staff follow all safety protocols as directed by local authorities"
+            },
+            "amenity_42": {
+              "id": "2572",
+              "name": "Shared stationery such as printed menus, magazines, pens, and paper removed"
+            },
+            "amenity_43": {
+              "id": "2602",
+              "name": "First aid kit available"
+            },
+            "amenity_44": {
+              "id": "2612",
+              "name": "Contactless check-in/check-out"
+            },
+            "amenity_45": {
+              "id": "2622",
+              "name": "Cashless payment available"
+            },
+            "amenity_46": {
+              "id": "2652",
+              "name": "Screens or physical barriers placed between staff and guests in appropriate areas"
+            },
+            "amenity_47": {
+              "id": "2662",
+              "name": "Linens, towels and laundry washed in accordance with local authority guidelines"
+            },
+            "amenity_48": {
+              "id": "2672",
+              "name": "Guest accommodation is disinfected between stays"
+            },
+            "amenity_49": {
+              "id": "2692",
+              "name": "Physical distancing in dining areas"
+            },
+            "amenity_50": {
+              "id": "2702",
+              "name": "Food can be delivered to guest accommodation"
+            },
+            "amenity_51": {
+              "id": "2712",
+              "name": "Hand sanitizer in guest accommodation and key areas"
+            },
+            "amenity_52": {
+              "id": "2752",
+              "name": "All plates, cutlery, glasses and other tableware have been sanitized"
+            },
+            "amenity_53": {
+              "id": "2922",
+              "name": "Physical distancing rules followed"
+            },
+            "amenity_54": {
+              "id": "2932",
+              "name": "Guests have the option to cancel any cleaning services for their accommodation during their stay"
+            },
+            "amenity_55": {
+              "id": "2942",
+              "name": "Breakfast takeaway containers"
+            },
+            "amenity_56": {
+              "id": "2982",
+              "name": "Face masks for guests available"
+            },
+            "amenity_57": {
+              "id": "5101",
+              "name": "Parking on site"
+            },
+            "amenity_58": {
+              "id": "8021",
+              "name": "Coffee house on site"
+            }
+          },
+          "review_score_data": {
+            "cleanliness_score": "6.1"
+          },
+          "neighborhood": {
+            "id": "5175",
+            "name": "Downtown Austin"
+          },
+          "review_data": {
+            "review_0": {
+              "inventory": "bkg",
+              "user_name": "Abigail",
+              "good_description": "",
+              "bad_description": "For the price, I expected more. Overall wouldn’t stay here again. Not worth it.",
+              "review_text": "Very poor",
+              "average_rating": "2",
+              "average_rating_description": "Poor",
+              "traveller_type_name": "group",
+              "creation_date": "2024-02-19"
+            },
+            "review_1": {
+              "inventory": "bkg",
+              "user_name": "Cynthia",
+              "good_description": "It was under construction which should have been disclosed.  Parking was awkward.  No way to get soft drinks and snacks. Vending machines were empty",
+              "bad_description": "Construction and no little store or stocked vending\nMachines",
+              "review_text": "Could have been better",
+              "average_rating": "7",
+              "average_rating_description": "Good",
+              "traveller_type_name": "review category business travellers",
+              "creation_date": "2024-01-20"
+            },
+            "review_2": {
+              "inventory": "bkg",
+              "user_name": "Angelica",
+              "good_description": "Rooms were updated",
+              "bad_description": "The outdoor was in process of construction not nice outdoor. No breakfast served",
+              "review_text": "Poor",
+              "average_rating": "3",
+              "average_rating_description": "Poor",
+              "traveller_type_name": "young couple",
+              "creation_date": "2024-01-09"
+            },
+            "review_3": {
+              "inventory": "tweb",
+              "user_name": "Khalil",
+              "good_description": "Nothing I liked. Sorry, I had to leave the hotel next day.",
+              "bad_description": "Location was not as expectedly. The hotel was under construction and renovation with lots of noises. Even my room was still not finished or renovated yet. The room not painted yet.  I only stayed one night. I wonder if I get refund for one night at least.",
+              "review_text": "",
+              "average_rating": "2",
+              "average_rating_description": "Poor",
+              "traveller_type_name": "Solo Traveler",
+              "creation_date": "2024-01-03"
+            },
+            "review_4": {
+              "inventory": "bkg",
+              "user_name": "Joshua",
+              "good_description": "",
+              "bad_description": "",
+              "review_text": "Bad",
+              "average_rating": "1",
+              "average_rating_description": "Very Poor",
+              "traveller_type_name": "solo traveller",
+              "creation_date": "2024-01-02"
+            },
+            "review_5": {
+              "inventory": "bkg",
+              "user_name": "Erik",
+              "good_description": "Room was very nice the staff was great",
+              "bad_description": "Did not know it was under construction before booking with no other options at the last minute. We had to walk along the property (the sidewalk) in the morning to get to our vehicle.",
+              "review_text": "Overall staff is great room...",
+              "average_rating": "5",
+              "average_rating_description": "Fair",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-12-18"
+            },
+            "review_6": {
+              "inventory": "bkg",
+              "user_name": "Faris",
+              "good_description": "",
+              "bad_description": "",
+              "review_text": "Poor",
+              "average_rating": "3",
+              "average_rating_description": "Poor",
+              "traveller_type_name": "family with young children",
+              "creation_date": "2023-12-01"
+            },
+            "review_7": {
+              "inventory": "bkg",
+              "user_name": "Anonymous",
+              "good_description": "Location",
+              "bad_description": "Currently being renovated so not real comfortable",
+              "review_text": "Nice quick stay was fine",
+              "average_rating": "7",
+              "average_rating_description": "Good",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-11-26"
+            },
+            "review_8": {
+              "inventory": "bkg",
+              "user_name": "Anonymous",
+              "good_description": "",
+              "bad_description": "",
+              "review_text": "Disappointing",
+              "average_rating": "4",
+              "average_rating_description": "Disappointing",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-11-08"
+            },
+            "review_9": {
+              "inventory": "tweb",
+              "user_name": "Callahan",
+              "good_description": "The staff and the room were both great",
+              "bad_description": "",
+              "review_text": "Exceptional",
+              "average_rating": "10",
+              "average_rating_description": "Exceptional",
+              "traveller_type_name": "Family with Young Children",
+              "creation_date": "2023-11-06"
+            },
+            "review_10": {
+              "inventory": "bkg",
+              "user_name": "Callahan",
+              "good_description": "The staff and the room were both great",
+              "bad_description": "",
+              "review_text": "Exceptional",
+              "average_rating": "10",
+              "average_rating_description": "Exceptional",
+              "traveller_type_name": "family with young children",
+              "creation_date": "2023-11-06"
+            },
+            "review_11": {
+              "inventory": "tweb",
+              "user_name": "Ryan",
+              "good_description": "Its being renovated.",
+              "bad_description": "The rooms are very outdated and old.",
+              "review_text": "Was great as a quick accommodation.",
+              "average_rating": "6",
+              "average_rating_description": "Pleasant",
+              "traveller_type_name": "Traveling as Couple",
+              "creation_date": "2023-11-05"
+            },
+            "review_12": {
+              "inventory": "bkg",
+              "user_name": "Ryan",
+              "good_description": "It’s being renovated.",
+              "bad_description": "The rooms are very outdated and old.",
+              "review_text": "Was great as a quick...",
+              "average_rating": "6",
+              "average_rating_description": "Pleasant",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-11-05"
+            },
+            "review_13": {
+              "inventory": "tweb",
+              "user_name": "Mckenna",
+              "good_description": "The hotel is undergoing some renovations/updates, so there was some construction noises going on during our check in but it didnt both us at all! We were out doing stuff until well after it stopped. The room was very comfortable and actually got down to a low temp when we lowered the thermostat which I appreciate as a cold weather loving person! We parked in the garage attached to the hotel and walked everywhere else.",
+              "bad_description": "N/a",
+              "review_text": "Great place and very nice staff!",
+              "average_rating": "8",
+              "average_rating_description": "Very Good",
+              "traveller_type_name": "Traveling as Couple",
+              "creation_date": "2023-11-02"
+            },
+            "review_14": {
+              "inventory": "bkg",
+              "user_name": "Mckenna",
+              "good_description": "The hotel is undergoing some renovations/updates, so there was some construction noises going on during our check in but it didn’t both us at all! We were out doing stuff until well after it stopped. The room was very comfortable and actually got down to a low temp when we lowered the thermostat which I appreciate as a cold weather loving person! We parked in the garage attached to the hotel and walked everywhere else.",
+              "bad_description": "N/a",
+              "review_text": "Great place and very nice...",
+              "average_rating": "8",
+              "average_rating_description": "Very Good",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-11-02"
+            },
+            "review_15": {
+              "inventory": "bkg",
+              "user_name": "Karen",
+              "good_description": "Chose the location for access to shuttle for Grand Prix. Staff were very helpful",
+              "bad_description": "This hotel is under renovation, and Booking.com does not disclose that!  We had no water for hours, couldn't even flush the toilet!  Hotel staff said this has been an issue and Booking.com and the corporate website for Sheraton/Marriott are both supposed to clearly state on their websites that hotel is under construction!  Housekeeping  did not leave enough towels, no towel racks for used towels, mini bar not stocked, no room safe, no dresser, no closet, etc!  There was a freestanding rack with a shelf for clothes.  Definitely not enough room for 2 adults for 5 days and way too expensive for what it was!  We will not stay there again.",
+              "review_text": "Disappointing, not a 3 star...",
+              "average_rating": "5",
+              "average_rating_description": "Fair",
+              "traveller_type_name": "young couple",
+              "creation_date": "2023-10-24"
+            },
+            "review_16": {
+              "inventory": "bkg",
+              "user_name": "Maria",
+              "good_description": "",
+              "bad_description": "Parking is not included which they only mentioned once you booked",
+              "review_text": "Passable",
+              "average_rating": "5",
+              "average_rating_description": "Fair",
+              "traveller_type_name": "family with young children",
+              "creation_date": "2023-10-20"
+            },
+            "review_17": {
+              "inventory": "tweb",
+              "user_name": "Maria",
+              "good_description": "",
+              "bad_description": "Parking is not included which they only mentioned once you booked",
+              "review_text": "Passable",
+              "average_rating": "5",
+              "average_rating_description": "Fair",
+              "traveller_type_name": "Family with Young Children",
+              "creation_date": "2023-10-19"
+            },
+            "review_18": {
+              "inventory": "tweb",
+              "user_name": "Maria",
+              "good_description": "",
+              "bad_description": "Parking is not included which they only mentioned once you booked",
+              "review_text": "Passable",
+              "average_rating": "5",
+              "average_rating_description": "Fair",
+              "traveller_type_name": "Family with Young Children",
+              "creation_date": "2023-10-19"
+            },
+            "review_19": {
+              "inventory": "tweb",
+              "user_name": "Calum",
+              "good_description": "Clean room.",
+              "bad_description": "Wasnt advised about ongoing restoration work. Swimming pool closed. Location was poor. Lots of traffic noise.",
+              "review_text": "The only good thing was the bedroom was clean- dont stay here.",
+              "average_rating": "2",
+              "average_rating_description": "Poor",
+              "traveller_type_name": "Traveling as Couple",
+              "creation_date": "2023-10-17"
+            }
+          },
+          "cug_enabled": 1,
+          "check_in_information": {
+            "standard_check_in": true
+          },
+          "photo_data": {
+            "photo_0": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401168.jpg?k=e0620bcb50e201ea89bfd458e74670f9bd76119a6b30fbb07c59da86ff5faa46&o=",
+            "photo_1": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401091.jpg?k=93e37738f6ca97528b7df0ec2ac7d99d850bddf00cab6338963950be3415ef4e&o=",
+            "photo_2": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401092.jpg?k=4e1ac49feeef203970329505343337efc287f86d3d63e2db22267a26ed8b225d&o=",
+            "photo_3": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401095.jpg?k=81b86fce3ab23b4013cd1cc71aca5b6f39e218657ca7750eb4aad33f9ffb18a1&o=",
+            "photo_4": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401096.jpg?k=382441460f58adb827b2d5070cf7531ab2c5010f03548bfe1bd81a29f1298bd6&o=",
+            "photo_5": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401097.jpg?k=712ac4f4690329fb7e72afbfcb1cae741bf3ad775949a185a645e9eef2d8b633&o=",
+            "photo_6": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401099.jpg?k=447c82e409dd8796acf69eda3c33d4207ff4631ecf42240aee21600741c28a56&o=",
+            "photo_7": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401100.jpg?k=6ebdc922f45553d1f39b4edc5334afbf784cceae205afed3f45346d78fa04456&o=",
+            "photo_8": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401101.jpg?k=b6686a48e52b0ac14807912d4039ea2e81a56eef32e704d79df83cd75a049a07&o=",
+            "photo_9": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401102.jpg?k=3f665c877ff3c635cacf69fa9f2c29c287f8428bdb3d3795edac389fed9ebca3&o=",
+            "photo_10": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401104.jpg?k=55a72d98c18a27c053258f9397155b586164844914175598fcb0197bcc9f986e&o=",
+            "photo_11": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401105.jpg?k=dce2869e3845a9f05ec0c13917f2ecdc38c2808ac86f0c07d5985fe19a3307f9&o=",
+            "photo_12": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401107.jpg?k=293315723119625a2f598e78e11e6b00327bd0208c4d3858ab90ad55a3298719&o=",
+            "photo_13": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401110.jpg?k=f75a05a5df78c1c16136b5162d32743c330ddbbcc6de98b13a55b47274fd7d5e&o=",
+            "photo_14": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401112.jpg?k=d562fd24c661ed3d1b09d217f7dc28828bc98d47db653d0ceafc9832d78ccfb7&o=",
+            "photo_15": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401113.jpg?k=27d6fe11a5b1a3b7596b2d8a49bfaa07baa333e6b62c5ebfcf4cf112e7519e68&o=",
+            "photo_16": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401115.jpg?k=f303e3e0cc2d4a696ac902458acd7afa7ff92fc2c2bf49bb139549202ed392b6&o=",
+            "photo_17": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401117.jpg?k=e7fc5acc0904f3a63d89201ce1d45084d45e3f920c55d5f512dadfc0bc3b0ed0&o=",
+            "photo_18": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401119.jpg?k=27525d74df346d0456e19b0c8334fbf48dd079d3a88871af4ccc482041c40294&o=",
+            "photo_19": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401120.jpg?k=be01aa37f8df3f9f4472885de8c093948a2173317aa02b84e4fb2384864446a6&o=",
+            "photo_20": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401123.jpg?k=ae952a80fc876af39dcdf569d334d26f1af94c3df68dcb5ca3bda585d860bb3b&o=",
+            "photo_21": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401124.jpg?k=fa162489c1c43f6e0cae3e0bb052a328336d160f2cca2c6e3d3a5f97099fb5e7&o=",
+            "photo_22": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401125.jpg?k=344cddb88bfc1a5a712a0b0976e612d0fc2349299c184485fad7d74b54b0096d&o=",
+            "photo_23": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401127.jpg?k=b62b4937866ebac5580930bb28b23c4cff99e2a2570ef6682ba17e160ac8b648&o=",
+            "photo_24": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401130.jpg?k=ef39efba8e5f78b3752511cf09a5ed6d8d8e305e831763f1f46183b86af4b9cd&o=",
+            "photo_25": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401131.jpg?k=38dd03583631dde2a9b27509d9b847790ec22708563474b40a56336e4159ddde&o=",
+            "photo_26": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401149.jpg?k=874f097170310a49b3643ee5a3d075bef3139a66cee00334b744044aa45ac5ee&o=",
+            "photo_27": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401158.jpg?k=0e75cdc58b7cd38d56da7d3dfe3449986e0fb97f657762e78909ef2a68d5ea47&o=",
+            "photo_28": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401161.jpg?k=bd0142f52b0a5a19b102545847a889804342fb3dfecb4464ab1c08e1f0060c30&o=",
+            "photo_29": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401164.jpg?k=7addb5f4e79b3eb02236d7ad80ebded347fc381eba6da4bf5bed6fb6ba1a801d&o=",
+            "photo_30": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401165.jpg?k=bf8f128b1624d24048c3de948609ab07b236363b34250ed46d9bfb999c717e35&o=",
+            "photo_31": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401167.jpg?k=cc7afe36cf49b04459e419061c45eb41fbacbe102080b0386d34de69fd221fb6&o=",
+            "photo_32": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401171.jpg?k=6f4d77a070010bd2bca716f4985eb5165ff435a882b27ded241d410830b6ba6b&o=",
+            "photo_33": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401174.jpg?k=c1f6f8dbb73c61a4f417f2aff845591d8552a9b9bb10f093090a894b6a6166c0&o=",
+            "photo_34": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401175.jpg?k=332178b66ab9a7801c685015ffac9febb24b90ff5451e524fd4c00bf36224bd0&o=",
+            "photo_35": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401176.jpg?k=5fd68040a7c6bc5e91c533ce77573ac7324e7126684c5139e9418bb631912eb0&o=",
+            "photo_36": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401177.jpg?k=80ed14039cf8c8751981704686f04e1ed5d61501aaf835799647428a6d626f34&o=",
+            "photo_37": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401180.jpg?k=5967038357b9d9f5c75758abbb508ad84b80956fa2cb252c094e51f2240f5356&o=",
+            "photo_38": "https://q-xx.bstatic.com/xdata/images/hotel/max500/465401183.jpg?k=0567a47211138a560dc25ddef1222a68a85c5a87819c6410feb631fa1ba50160&o=",
+            "photo_39": "https://q-xx.bstatic.com/xdata/images/hotel/max500/479607637.jpg?k=905bf67a1fb12ec9b8b74694eb3a281b64a762f76f971cecc8331d9a3e9505b2&o=",
+            "photo_40": "https://q-xx.bstatic.com/xdata/images/hotel/max500/479607638.jpg?k=fcc6f2e36092d29c3fe1e5f03c1850aa8fe453af77b392ad25f473b33cf70376&o=",
+            "photo_41": "https://q-xx.bstatic.com/xdata/images/hotel/max500/479607640.jpg?k=79dc7ca70ada1560cc0bcdc6c9b9def40ee06d9615bf8675f9821ac627fc45d3&o=",
+            "photo_42": "https://q-xx.bstatic.com/xdata/images/hotel/max500/482371205.jpg?k=58f322f182e49a511585ddd5ea31a25a906c0e24a26412eed17097b425e72c4c&o=",
+            "photo_43": "https://q-xx.bstatic.com/xdata/images/hotel/max500/482371206.jpg?k=e37f8b58599c0592418723923d04c82ffd29e2e6d12a0996105ece9c893a95cb&o=",
+            "photo_44": "https://q-xx.bstatic.com/xdata/images/hotel/max500/483530027.jpg?k=711670c055218d0cd39d94ca9cfe06e4a3b37751fccbddf308becd85e3953155&o=",
+            "photo_45": "https://q-xx.bstatic.com/xdata/images/hotel/max500/483550509.jpg?k=6f1202dc6d9f8c8a66e0c3d571cd4c05a9027b8eec07c2b2d1f4da91d9759515&o=",
+            "photo_46": "https://q-xx.bstatic.com/xdata/images/hotel/max500/486408931.jpg?k=0485c1b5857f2ad53f531498e5a09bff65b56e42ebb3da4dda443ab5ebd666ba&o=",
+            "photo_47": "https://q-xx.bstatic.com/xdata/images/hotel/max500/486411585.jpg?k=ad004865e5675604b2d52fbefd571112f7e3241afdeb371acb2b4bb65b8f76c0&o=",
+            "photo_48": "https://q-xx.bstatic.com/xdata/images/hotel/max500/486411876.jpg?k=edf487e8973242b04c77d34c22b818cb26ecae625c83419f32a5013094c07424&o=",
+            "photo_49": "https://q-xx.bstatic.com/xdata/images/hotel/max500/486412107.jpg?k=b07896ef1745a7bd73f40a6312f57ba2be7f0f5704937a6cd9b9accf440834c6&o="
+          },
+          "recent_sales_data": {
+            "hotel_0": {
+              "city_id": "800050468",
+              "hotel_id": "700008849",
+              "rate": "1959.65",
+              "creation_date_time": "2024-01-07 16:24:18",
+              "creation_date_time_iso8601": "2024-01-07T16:24:18-05:00",
+              "time_from_last": "1 months 25 days"
+            }
+          },
+          "promo_data": [],
+          "nearby_data": [],
+          "important_information": {
+            "policy_0": {
+              "title": "Important Information",
+              "paragraph_data": {
+                "paragraph_0": "Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply. Please inform Sheraton Austin Hotel at the Capitol of your expected arrival time in advance. You can use the Special Requests box when booking, or contact the property directly using the contact details in your confirmation."
+              }
+            }
+          },
+          "guest_score_categories": {
+            "staff": "8.5",
+            "cleanliness": "8.1",
+            "location": "8.2"
+          },
+          "plugin_data": {
+            "pet_friendly": {
+              "plugin_id": "1",
+              "plugin_name": "pet_friendly",
+              "hotelid_ppn": "700008849",
+              "policy": "Pets are allowed on request. Charges may apply.\n",
+              "policy_verified": "1",
+              "enable": "1",
+              "creation_date_time": "2024-02-24 17:44:06"
+            }
+          },
+          "warning_data": {
+            "warning_0": {
+              "status": "Hotel.HotelDetails: No promo data found.",
+              "status_code": "6372",
+              "status_message": ""
+            },
+            "warning_1": {
+              "status": "Hotel.NearbyNew: Must specify results limit (at least one: city_limit, airport_limit, poi_limit, or hotel_limit)",
+              "status_code": "6421",
+              "status_message": ""
+            }
+          }
+        }
+      },
+      "time": "0.1643"
+    }
+  }
+}

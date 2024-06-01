@@ -1,0 +1,3238 @@
+[
+     {
+      "name": "United Kingdom",
+        "Cities": [
+            {
+                "Location": "Birmingham",
+                "Airport": "Birmingham Airport",
+                "IATA_Code": "BHX"
+            },
+            {
+                "Location": "Bournemouth",
+                "Airport": "Bournemouth Airport",
+                "IATA_Code": "BOH"
+            },
+            {
+                "Location": "Bristol",
+                "Airport": "Bristol Airport",
+                "IATA_Code": "BRS"
+            },
+            {
+                "Location": "Cardiff",
+                "Airport": "Cardiff Airport",
+                "IATA_Code": "CWL"
+            },
+            {
+                "Location": "Nottingham",
+                "Airport": "East Midlands Airport",
+                "IATA_Code": "EMA"
+            },
+            {
+                "Location": "Exeter",
+                "Airport": "Exeter Airport",
+                "IATA_Code": "EXT"
+            },
+            {
+                "Location": "Hull",
+                "Airport": "Humberside Airport",
+                "IATA_Code": "HUY"
+            },
+            {
+                "Location": "Leeds/Bradford",
+                "Airport": "Leeds Bradford Airport",
+                "IATA_Code": "LBA"
+            },
+            {
+                "Location": "Liverpool",
+                "Airport": "Liverpool John Lennon Airport",
+                "IATA_Code": "LPL"
+            },
+            {
+                "Location": "London",
+                "Airports": [
+                    {
+                        "Name": "London City Airport",
+                        "IATA_Code": "LCY"
+                    },
+                    {
+                        "Name": "Gatwick Airport",
+                        "IATA_Code": "LGW"
+                    },
+                    {
+                        "Name": "Heathrow Airport",
+                        "IATA_Code": "LHR"
+                    },
+                    {
+                        "Name": "Luton Airport",
+                        "IATA_Code": "LTN"
+                    },
+                    {
+                        "Name": "London Southend Airport",
+                        "IATA_Code": "SEN"
+                    },
+                    {
+                        "Name": "London Stansted Airport",
+                        "IATA_Code": "STN"
+                    }
+                ]
+            },
+            {
+                "Location": "Manchester",
+                "Airport": "Manchester Airport",
+                "IATA_Code": "MAN"
+            },
+            {
+                "Location": "Newcastle upon Tyne",
+                "Airport": "Newcastle International Airport",
+                "IATA_Code": "NCL"
+            },
+            {
+                "Location": "Newquay",
+                "Airport": "Newquay Airport",
+                "IATA_Code": "NQY"
+            },
+            {
+                "Location": "Norwich",
+                "Airport": "Norwich Airport",
+                "IATA_Code": "NWI"
+            },
+            {
+                "Location": "Southampton",
+                "Airport": "Southampton Airport",
+                "IATA_Code": "SOU"
+            },
+            {
+                "Location": "Middlesbrough",
+                "Airport": "Teesside International Airport",
+                "IATA_Code": "MME"
+            }
+        ]
+    },
+     {
+      "name": "Scotland",
+        "Cities": [
+            {
+                "Location": "Aberdeen",
+                "Airport": "Aberdeen Airport",
+                "IATA_Code": "ABZ"
+            },
+            {
+                "Location": "Edinburgh",
+                "Airport": "Edinburgh Airport",
+                "IATA_Code": "EDI"
+            },
+            {
+                "Location": "Glasgow",
+                "Airports": [
+                    {
+                        "Name": "Glasgow Airport",
+                        "IATA_Code": "GLA"
+                    },
+                    {
+                        "Name": "Glasgow Prestwick Airport",
+                        "IATA_Code": "PIK"
+                    }
+                ]
+            },
+            {
+                "Location": "Inverness",
+                "Airport": "Inverness Airport",
+                "IATA_Code": "INV"
+            }
+        ]
+    },
+     {
+      "name": "France",
+        "Cities": [
+            {
+                "Location": "Ajaccio",
+                "Airport": "Ajaccio Napoleon Bonaparte Airport",
+                "IATA_Code": "AJA"
+            },
+            {
+                "Location": "Bastia",
+                "Airport": "Poretta Airport",
+                "IATA_Code": "BIA"
+            },
+            {
+                "Location": "Beauvais",
+                "Airport": "Beauvais–Tillé Airport",
+                "IATA_Code": "BVA"
+            },
+            {
+                "Location": "Bergerac",
+                "Airport": "Bergerac Dordogne Périgord Airport",
+                "IATA_Code": "EGC"
+            },
+            {
+                "Location": "Béziers",
+                "Airport": "Béziers Cap d'Agde Airport",
+                "IATA_Code": "BZR"
+            },
+            {
+                "Location": "Biarritz",
+                "Airport": "Biarritz Pays Basque Airport",
+                "IATA_Code": "BIQ"
+            },
+            {
+                "Location": "Bordeaux",
+                "Airport": "Bordeaux–Mérignac Airport",
+                "IATA_Code": "BOD"
+            },
+            {
+                "Location": "Brest",
+                "Airport": "Brest Bretagne Airport",
+                "IATA_Code": "BES"
+            },
+            {
+                "Location": "Carcassonne",
+                "Airport": "Carcassonne Airport",
+                "IATA_Code": "CCF"
+            },
+            {
+                "Location": "Châlons-en-Champagne",
+                "Airport": "Châlons Vatry Airport",
+                "IATA_Code": "XCR"
+            },
+            {
+                "Location": "Chambéry",
+                "Airport": "Chambéry Airport",
+                "IATA_Code": "CMF"
+            },
+            {
+                "Location": "Dinard",
+                "Airport": "Dinard–Pleurtuit–Saint-Malo Airport",
+                "IATA_Code": "DNR"
+            },
+            {
+                "Location": "Figari",
+                "Airport": "Figari–Sud Corse Airport",
+                "IATA_Code": "FSC"
+            },
+            {
+                "Location": "Grenoble",
+                "Airport": "Alpes–Isère Airport",
+                "IATA_Code": "GNB"
+            },
+            {
+                "Location": "Île de Ré",
+                "Airport": "La Rochelle – Île de Ré Airport",
+                "IATA_Code": "LRH"
+            },
+            {
+                "Location": "Lille",
+                "Airport": "Lille Airport",
+                "IATA_Code": "LIL"
+            },
+            {
+                "Location": "Limoges",
+                "Airport": "Limoges – Bellegarde Airport",
+                "IATA_Code": "LIG"
+            },
+            {
+                "Location": "Lyon",
+                "Airport": "Lyon–Saint-Exupéry Airport",
+                "IATA_Code": "LYS"
+            },
+            {
+                "Location": "Marseille",
+                "Airport": "Marseille Provence Airport",
+                "IATA_Code": "MRS"
+            },
+            {
+                "Location": "Mulhouse",
+                "Airport": "EuroAirport Basel Mulhouse Freiburg",
+                "IATA_Code": "BSL"
+            },
+            {
+                "Location": "Nantes",
+                "Airport": "Nantes Atlantique Airport",
+                "IATA_Code": "NTE"
+            },
+            {
+                "Location": "Nice",
+                "Airport": "Nice Côte d'Azur Airport",
+                "IATA_Code": "NCE"
+            },
+            {
+                "Location": "Nîmes",
+                "Airport": "Nîmes–Alès–Camargue–Cévennes Airport",
+                "IATA_Code": "FNI"
+            },
+            {
+                "Location": "Paris",
+                "Airports": [
+                    {
+                        "Name": "Charles de Gaulle Airport",
+                        "IATA_Code": "CDG"
+                    },
+                    {
+                        "Name": "Orly Airport",
+                        "IATA_Code": "ORY"
+                    }
+                ]
+            },
+            {
+                "Location": "Pau",
+                "Airport": "Pau Pyrénées Airport",
+                "IATA_Code": "PUF"
+            },
+            {
+                "Location": "Perpignan",
+                "Airport": "Perpignan–Rivesaltes Airport",
+                "IATA_Code": "PGF"
+            },
+            {
+                "Location": "Poitiers",
+                "Airport": "Poitiers–Biard Airport",
+                "IATA_Code": "PIS"
+            },
+            {
+                "Location": "Rodez",
+                "Airport": "Rodez–Aveyron Airport",
+                "IATA_Code": "RDZ"
+            },
+            {
+                "Location": "Saint-Étienne",
+                "Airport": "Saint-Étienne–Bouthéon Airport",
+                "IATA_Code": "EBU"
+            },
+            {
+                "Location": "Strasbourg",
+                "Airport": "Strasbourg Airport",
+                "IATA_Code": "SXB"
+            },
+            {
+                "Location": "Toulon",
+                "Airport": "Toulon–Hyères Airport",
+                "IATA_Code": "TLN"
+            },
+            {
+                "Location": "Toulouse",
+                "Airport": "Toulouse–Blagnac Airport",
+                "IATA_Code": "TLS"
+            },
+            {
+                "Location": "Tours",
+                "Airport": "Tours Val de Loire Airport",
+                "IATA_Code": "TUF"
+            }
+        ]
+    },
+     {
+      "name": "Netherlands",
+        "Cities": [
+            {
+                "Location": "Amsterdam",
+                "Airport": "Amsterdam Airport Schiphol",
+                "IATA_Code": "AMS"
+            },
+            {
+                "Location": "Eindhoven",
+                "Airport": "Eindhoven Airport",
+                "IATA_Code": "EIN"
+            },
+            {
+                "Location": "Groningen",
+                "Airport": "Groningen Airport Eelde",
+                "IATA_Code": "GRQ"
+            },
+            {
+                "Location": "Maastricht",
+                "Airport": "Maastricht Aachen Airport",
+                "IATA_Code": "MST"
+            },
+            {
+                "Location": "Rotterdam",
+                "Airport": "Rotterdam The Hague Airport",
+                "IATA_Code": "RTM"
+            }
+        ]
+    },
+    {
+      "name": "Austria",
+        "Cities": [
+            {
+                "Location": "Graz",
+                "Airport": "Graz Airport",
+                "IATA_Code": "GRZ"
+            },
+            {
+                "Location": "Klagenfurt",
+                "Airport": "Klagenfurt Airport",
+                "IATA_Code": "KLU"
+            },
+            {
+                "Location": "Innsbruck",
+                "Airport": "Innsbruck Airport",
+                "IATA_Code": "INN"
+            },
+            {
+                "Location": "Linz",
+                "Airport": "Linz Airport",
+                "IATA_Code": "LNZ"
+            },
+            {
+                "Location": "Salzburg",
+                "Airport": "Salzburg Airport",
+                "IATA_Code": "SZG"
+            },
+            {
+                "Location": "Vienna",
+                "Airport": "Vienna International Airport",
+                "IATA_Code": "VIE"
+            }
+        ]
+    },
+    {
+      "name": "Czech Republic",
+        "Cities": [
+            {
+                "Location": "Brno",
+                "Airport": "Brno–Tuřany Airport",
+                "IATA_Code": "BRQ"
+            },
+            {
+                "Location": "České Budějovice",
+                "Airport": "České Budějovice Airport",
+                "IATA_Code": "JCL"
+            },
+            {
+                "Location": "Karlovy Vary",
+                "Airport": "Karlovy Vary Airport",
+                "IATA_Code": "KLV"
+            },
+            {
+                "Location": "Ostrava",
+                "Airport": "Leoš Janáček Airport Ostrava",
+                "IATA_Code": "OSR"
+            },
+            {
+                "Location": "Prague",
+                "Airport": "Václav Havel Airport Prague",
+                "IATA_Code": "PRG"
+            },
+            {
+                "Location": "Pardubice",
+                "Airport": "Pardubice Airport",
+                "IATA_Code": "PED"
+            }
+        ]
+    },
+    {
+      "name": "Germany",
+        "Cities": [
+            {
+                "Location": "Baden-Baden/Karlsruhe",
+                "Airport": "Karlsruhe/Baden-Baden Airport",
+                "IATA_Code": "FKB"
+            },
+            {
+                "Location": "Berlin",
+                "Airport": "Berlin Brandenburg Airport",
+                "IATA_Code": "BER"
+            },
+            {
+                "Location": "Bremen",
+                "Airport": "Bremen Airport",
+                "IATA_Code": "BRE"
+            },
+            {
+                "Location": "Cologne/Bonn",
+                "Airport": "Cologne/Bonn Airport",
+                "IATA_Code": "CGN"
+            },
+            {
+                "Location": "Dortmund",
+                "Airport": "Dortmund Airport",
+                "IATA_Code": "DTM"
+            },
+            {
+                "Location": "Düsseldorf",
+                "Airport": "Düsseldorf Airport",
+                "IATA_Code": "DUS"
+            },
+            {
+                "Location": "Frankfurt",
+                "Airport": "Frankfurt Airport",
+                "IATA_Code": "FRA"
+            },
+            {
+                "Location": "Frankfurt-Hahn",
+                "Airport": "Frankfurt-Hahn Airport",
+                "IATA_Code": "HHN"
+            },
+            {
+                "Location": "Freiburg im Breisgau",
+                "Airport": "EuroAirport Basel–Mulhouse–Freiburg",
+                "IATA_Code": "MLH/BSL/EAP"
+            },
+            {
+                "Location": "Friedrichshafen",
+                "Airport": "Friedrichshafen Airport",
+                "IATA_Code": "FDH"
+            },
+            {
+                "Location": "Hamburg",
+                "Airport": "Hamburg Airport",
+                "IATA_Code": "HAM"
+            },
+            {
+                "Location": "Hanover",
+                "Airport": "Hannover Airport",
+                "IATA_Code": "HAJ"
+            },
+            {
+                "Location": "Leipzig",
+                "Airport": "Leipzig/Halle Airport",
+                "IATA_Code": "LEJ"
+            },
+            {
+                "Location": "Lübeck",
+                "Airport": "Lübeck Airport",
+                "IATA_Code": "LBC"
+            },
+            {
+                "Location": "Memmingen",
+                "Airport": "Memmingen Airport",
+                "IATA_Code": "FMM"
+            },
+            {
+                "Location": "Munich",
+                "Airport": "Munich Airport",
+                "IATA_Code": "MUC"
+            },
+            {
+                "Location": "Nuremberg",
+                "Airport": "Nuremberg Airport",
+                "IATA_Code": "NUE"
+            },
+            {
+                "Location": "Stuttgart",
+                "Airport": "Stuttgart Airport",
+                "IATA_Code": "STR"
+            },
+            {
+                "Location": "Weeze",
+                "Airport": "Weeze Airport",
+                "IATA_Code": "NRN"
+            }
+        ]
+    },
+    {
+      "name": "Hungary",
+        "Cities": [
+            {
+                "Location": "Budapest",
+                "Airport": "Budapest Ferenc Liszt International Airport",
+                "IATA_Code": "BUD"
+            },
+            {
+                "Location": "Debrecen",
+                "Airport": "Debrecen International Airport",
+                "IATA_Code": "DEB"
+            },
+            {
+                "Location": "Hévíz",
+                "Airport": "Hévíz-Balaton Airport",
+                "IATA_Code": "SOB"
+            },
+            {
+                "Location": "Győr",
+                "Airport": "Győr-Pér International Airport",
+                "IATA_Code": "QGY"
+            },
+            {
+                "Location": "Pécs",
+                "Airport": "Pécs-Pogány International Airport",
+                "IATA_Code": "QPJ"
+            }
+        ]
+    },
+    {
+      "name": "Poland",
+        "Cities": [
+            {
+                "Location": "Bydgoszcz",
+                "Airport": "Bydgoszcz Ignacy Jan Paderewski Airport",
+                "IATA_Code": "BZG"
+            },
+            {
+                "Location": "Gdańsk",
+                "Airport": "Gdańsk Lech Wałęsa Airport",
+                "IATA_Code": "GDN"
+            },
+            {
+                "Location": "Katowice",
+                "Airport": "Katowice Airport",
+                "IATA_Code": "KTW"
+            },
+            {
+                "Location": "Kraków",
+                "Airport": "Kraków John Paul II International Airport",
+                "IATA_Code": "KRK"
+            },
+            {
+                "Location": "Lublin",
+                "Airport": "Lublin Airport",
+                "IATA_Code": "LUZ"
+            },
+            {
+                "Location": "Łódź",
+                "Airport": "Łódź Władysław Reymont Airport",
+                "IATA_Code": "LCJ"
+            },
+            {
+                "Location": "Olsztyn",
+                "Airport": "Olsztyn-Mazury Airport",
+                "IATA_Code": "SZY"
+            },
+            {
+                "Location": "Poznań",
+                "Airport": "Poznań–Ławica Airport",
+                "IATA_Code": "POZ"
+            },
+            {
+                "Location": "Rzeszów",
+                "Airport": "Rzeszów–Jasionka Airport",
+                "IATA_Code": "RZE"
+            },
+            {
+                "Location": "Szczecin",
+                "Airport": "Solidarity Szczecin–Goleniów Airport",
+                "IATA_Code": "SZZ"
+            },
+            {
+                "Location": "Warsaw",
+                "Airport": "Warsaw Chopin Airport",
+                "IATA_Code": "WAW"
+            },
+            {
+                "Location": "Warsaw Modlin",
+                "Airport": "Warsaw Modlin Airport",
+                "IATA_Code": "WMI"
+            },
+            {
+                "Location": "Warsaw Radom",
+                "Airport": "Warsaw Radom Airport",
+                "IATA_Code": "RDO"
+            },
+            {
+                "Location": "Wrocław",
+                "Airport": "Wrocław Airport",
+                "IATA_Code": "WRO"
+            }
+        ]
+    },
+    {
+      "name": "Slovakia",
+        "Cities": [
+            {
+                "Location": "Bratislava",
+                "Airport": "Bratislava Airport",
+                "IATA_Code": "BTS"
+            },
+            {
+                "Location": "Košice",
+                "Airport": "Košice International Airport",
+                "IATA_Code": "KSC"
+            },
+            {
+                "Location": "Piešťany",
+                "Airport": "Piešťany Airport",
+                "IATA_Code": "PZY"
+            },
+            {
+                "Location": "Poprad",
+                "Airport": "Poprad-Tatry Airport",
+                "IATA_Code": "TAT"
+            },
+            {
+                "Location": "Žilina",
+                "Airport": "Žilina Airport",
+                "IATA_Code": "ILZ"
+            }
+        ]
+    },
+    {
+      "name": "Switzerland",
+        "Cities": [
+            {
+                "Location": "Basel",
+                "Airport": "EuroAirport Basel Mulhouse Freiburg",
+                "IATA_Code": "BSL"
+            },
+            {
+                "Location": "Bern",
+                "Airport": "Bern Airport",
+                "IATA_Code": "BRN"
+            },
+            {
+                "Location": "Geneva",
+                "Airport": "Geneva Airport",
+                "IATA_Code": "GVA"
+            },
+            {
+                "Location": "Lugano",
+                "Airport": "Lugano Airport",
+                "IATA_Code": "LUG"
+            },
+            {
+                "Location": "St. Gallen",
+                "Airport": "St. Gallen–Altenrhein Airport",
+                "IATA_Code": "ACH"
+            },
+            {
+                "Location": "Zürich",
+                "Airport": "Zurich Airport",
+                "IATA_Code": "ZRH"
+            }
+        ]
+    },
+    {
+      "name": "Greece",
+        "Cities": [
+            {
+                "Location": "Athens",
+                "Airport": "Athens International Airport",
+                "IATA_Code": "ATH"
+            },
+            {
+                "Location": "Cephalonia",
+                "Airport": "Kefalonia Island International Airport",
+                "IATA_Code": "EFL"
+            },
+            {
+                "Location": "Chania",
+                "Airport": "Chania International Airport",
+                "IATA_Code": "CHQ"
+            },
+            {
+                "Location": "Chios",
+                "Airport": "Chios Island National Airport",
+                "IATA_Code": "JKH"
+            },
+            {
+                "Location": "Corfu",
+                "Airport": "Corfu International Airport",
+                "IATA_Code": "CFU"
+            },
+            {
+                "Location": "Heraklion",
+                "Airport": "Heraklion International Airport",
+                "IATA_Code": "HER"
+            },
+            {
+                "Location": "Kalamata",
+                "Airport": "Kalamata International Airport",
+                "IATA_Code": "KLX"
+            },
+            {
+                "Location": "Karpathos",
+                "Airport": "Karpathos Island National Airport",
+                "IATA_Code": "AOK"
+            },
+            {
+                "Location": "Kavala",
+                "Airport": "Kavala International Airport",
+                "IATA_Code": "KVA"
+            },
+            {
+                "Location": "Kos",
+                "Airport": "Kos International Airport",
+                "IATA_Code": "KGS"
+            },
+            {
+                "Location": "Mykonos",
+                "Airport": "Mykonos Airport",
+                "IATA_Code": "JMK"
+            },
+            {
+                "Location": "Mytilene",
+                "Airport": "Mytilene International Airport",
+                "IATA_Code": "MJT"
+            },
+            {
+                "Location": "Preveza",
+                "Airport": "Aktion National Airport",
+                "IATA_Code": "PVK"
+            },
+            {
+                "Location": "Rhodes",
+                "Airport": "Rhodes International Airport",
+                "IATA_Code": "RHO"
+            },
+            {
+                "Location": "Samos",
+                "Airport": "Samos International Airport",
+                "IATA_Code": "SMI"
+            },
+            {
+                "Location": "Santorini",
+                "Airport": "Santorini (Thira) International Airport",
+                "IATA_Code": "JTR"
+            },
+            {
+                "Location": "Skiathos",
+                "Airport": "Skiathos International Airport",
+                "IATA_Code": "JSI"
+            },
+            {
+                "Location": "Skyros",
+                "Airport": "Skyros Island National Airport",
+                "IATA_Code": "SKU"
+            },
+            {
+                "Location": "Thessaloniki",
+                "Airport": "Thessaloniki Airport",
+                "IATA_Code": "SKG"
+            },
+            {
+                "Location": "Volos",
+                "Airport": "Nea Anchialos National Airport",
+                "IATA_Code": "VOL"
+            },
+            {
+                "Location": "Zakynthos",
+                "Airport": "Zakynthos International Airport",
+                "IATA_Code": "ZTH"
+            }
+        ]
+    },
+    {
+      "name": "Italy",
+        "Cities": [
+            {
+                "Location": "Alghero",
+                "Airport": "Fertilia Airport",
+                "IATA_Code": "AHO"
+            },
+            {
+                "Location": "Ancona",
+                "Airport": "Ancona Airport",
+                "IATA_Code": "AOI"
+            },
+            {
+                "Location": "Bari",
+                "Airport": "Palese Airport",
+                "IATA_Code": "BRI"
+            },
+            {
+                "Location": "Bergamo",
+                "Airport": "Orio al Serio Airport",
+                "IATA_Code": "BGY"
+            },
+            {
+                "Location": "Bologna",
+                "Airport": "Bologna Airport",
+                "IATA_Code": "BLQ"
+            },
+            {
+                "Location": "Brescia",
+                "Airport": "Brescia Airport",
+                "IATA_Code": "VBS"
+            },
+            {
+                "Location": "Brindisi",
+                "Airport": "Brindisi Airport",
+                "IATA_Code": "BDS"
+            },
+            {
+                "Location": "Cagliari",
+                "Airport": "Cagliari Airport",
+                "IATA_Code": "CAG"
+            },
+            {
+                "Location": "Catania",
+                "Airport": "Fontanarossa Airport",
+                "IATA_Code": "CTA"
+            },
+            {
+                "Location": "Cuneo",
+                "Airport": "Cuneo Levaldigi Airport",
+                "IATA_Code": "CUF"
+            },
+            {
+                "Location": "Florence",
+                "Airport": "Peretola Airport",
+                "IATA_Code": "FLR"
+            },
+            {
+                "Location": "Genoa",
+                "Airport": "Cristoforo Colombo Airport",
+                "IATA_Code": "GOA"
+            },
+            {
+                "Location": "Lamezia",
+                "Airport": "Lamezia Terme Airport",
+                "IATA_Code": "SUF"
+            },
+            {
+                "Location": "Milan",
+                "Airport": "Linate Airport",
+                "IATA_Code": "LIN"
+            },
+            {
+                "Location": "Milan Malpensa Airport",
+                "Airport": "Milan Malpensa Airport",
+                "IATA_Code": "MXP"
+            },
+            {
+                "Location": "Naples",
+                "Airport": "Naples International Airport",
+                "IATA_Code": "NAP"
+            },
+            {
+                "Location": "Olbia",
+                "Airport": "Costa Smeralda Airport",
+                "IATA_Code": "OLB"
+            },
+            {
+                "Location": "Palermo",
+                "Airport": "Palermo Airport",
+                "IATA_Code": "PMO"
+            },
+            {
+                "Location": "Parma",
+                "Airport": "Giuseppe Verdi Airport",
+                "IATA_Code": "PMF"
+            },
+            {
+                "Location": "Perugia",
+                "Airport": "San Egidio Airport",
+                "IATA_Code": "PEG"
+            },
+            {
+                "Location": "Pescara",
+                "Airport": "Abruzzo Airport",
+                "IATA_Code": "PSR"
+            },
+            {
+                "Location": "Pisa",
+                "Airport": "Galileo Galilei Airport",
+                "IATA_Code": "PSA"
+            },
+            {
+                "Location": "Rimini",
+                "Airport": "Federico Fellini Airport",
+                "IATA_Code": "RMI"
+            },
+            {
+                "Location": "Rome",
+                "Airport": "Leonardo da Vinci–Fiumicino Airport",
+                "IATA_Code": "FCO"
+            },
+            {
+                "Location": "Rome Ciampino Airport",
+                "Airport": "Rome Ciampino Airport",
+                "IATA_Code": "CIA"
+            },
+            {
+                "Location": "Trapani",
+                "Airport": "Vincenzo Florio Airport",
+                "IATA_Code": "TPS"
+            },
+            {
+                "Location": "Trieste",
+                "Airport": "Friuli Venezia Giulia Airport",
+                "IATA_Code": "TRS"
+            },
+            {
+                "Location": "Turin",
+                "Airport": "Caselle Airport",
+                "IATA_Code": "TRN"
+            },
+            {
+                "Location": "Venice",
+                "Airport": "Venice Marco Polo Airport",
+                "IATA_Code": "VCE"
+            },
+            {
+                "Location": "Verona",
+                "Airport": "Verona Villafranca Airport",
+                "IATA_Code": "VRN"
+            }
+        ]
+    },
+    {
+      "name": "Portugal",
+        "Cities": [
+            {
+                "Location": "Beja",
+                "Airport": "Beja Airport",
+                "IATA_Code": "BYJ"
+            },
+            {
+                "Location": "Faro",
+                "Airport": "Faro Airport",
+                "IATA_Code": "FAO"
+            },
+            {
+                "Location": "Funchal",
+                "Airport": "Madeira Airport",
+                "IATA_Code": "FNC"
+            },
+            {
+                "Location": "Porto Santo Island",
+                "Airport": "Porto Santo Airport",
+                "IATA_Code": "PXO"
+            },
+            {
+                "Location": "Lisbon",
+                "Airport": "Lisbon Airport",
+                "IATA_Code": "LIS"
+            },
+            {
+                "Location": "Porto",
+                "Airport": "Francisco Sá Carneiro Airport",
+                "IATA_Code": "OPO"
+            },
+            {
+                "Location": "Ponta Delgada",
+                "Airport": "João Paulo II Airport",
+                "IATA_Code": "PDL"
+            },
+            {
+                "Location": "Terceira Island",
+                "Airport": "Lajes Airport",
+                "IATA_Code": "TER"
+            }
+        ]
+    },
+    {
+      "name": "Slovenia",
+        "Cities": [
+            {
+                "Location": "Ljubljana",
+                "Airport": "Ljubljana Jože Pučnik Airport",
+                "IATA_Code": "LJU"
+            },
+            {
+                "Location": "Maribor",
+                "Airport": "Maribor Edvard Rusjan Airport",
+                "IATA_Code": "MBX"
+            },
+            {
+                "Location": "Portorož",
+                "Airport": "Portorož Airport",
+                "IATA_Code": "POW"
+            }
+        ]
+    },
+    {
+      "name": "Spain",
+        "Cities": [
+            {
+                "Location": "A Coruña",
+                "Airport": "A Coruña Airport",
+                "IATA_Code": "LCG"
+            },
+            {
+                "Location": "Alicante",
+                "Airport": "Alicante–Elche Miguel Hernández Airport",
+                "IATA_Code": "ALC"
+            },
+            {
+                "Location": "Almería",
+                "Airport": "Almería Airport",
+                "IATA_Code": "LEI"
+            },
+            {
+                "Location": "Asturias",
+                "Airport": "Asturias Airport",
+                "IATA_Code": "OVD"
+            },
+            {
+                "Location": "Barcelona",
+                "Airport": "Josep Tarradellas Barcelona–El Prat Airport",
+                "IATA_Code": "BCN"
+            },
+            {
+                "Location": "Bilbao",
+                "Airport": "Bilbao Airport",
+                "IATA_Code": "BIO"
+            },
+            {
+                "Location": "Castellón de la Plana",
+                "Airport": "Castellón–Costa Azahar Airport",
+                "IATA_Code": "CDT"
+            },
+            {
+                "Location": "Fuerteventura",
+                "Airport": "Fuerteventura Airport",
+                "IATA_Code": "FUE"
+            },
+            {
+                "Location": "Girona",
+                "Airport": "Girona-Costa Brava Airport",
+                "IATA_Code": "GRO"
+            },
+            {
+                "Location": "Gran Canaria",
+                "Airport": "Gran Canaria Airport",
+                "IATA_Code": "LPA"
+            },
+            {
+                "Location": "Granada",
+                "Airport": "Federico García Lorca Granada Airport",
+                "IATA_Code": "GRX"
+            },
+            {
+                "Location": "Huesca",
+                "Airport": "Huesca-Pirineos Airport",
+                "IATA_Code": "HSK"
+            },
+            {
+                "Location": "Ibiza",
+                "Airport": "Ibiza Airport",
+                "IATA_Code": "IBZ"
+            },
+            {
+                "Location": "Jerez de la Frontera",
+                "Airport": "Jerez Airport",
+                "IATA_Code": "XRY"
+            },
+            {
+                "Location": "La Palma",
+                "Airport": "La Palma Airport",
+                "IATA_Code": "SPC"
+            },
+            {
+                "Location": "Lanzarote",
+                "Airport": "Lanzarote Airport",
+                "IATA_Code": "ACE"
+            },
+            {
+                "Location": "Lleida",
+                "Airport": "Alguaire Airport",
+                "IATA_Code": "ILD"
+            },
+            {
+                "Location": "Madrid",
+                "Airport": "Madrid-Barajas Airport",
+                "IATA_Code": "MAD"
+            },
+            {
+                "Location": "Málaga",
+                "Airport": "Málaga Airport",
+                "IATA_Code": "AGP"
+            },
+            {
+                "Location": "Menorca",
+                "Airport": "Menorca Airport",
+                "IATA_Code": "MAH"
+            },
+            {
+                "Location": "Murcia",
+                "Airport": "Región de Murcia International Airport",
+                "IATA_Code": "RMU"
+            },
+            {
+                "Location": "Palma de Mallorca",
+                "Airport": "Palma de Mallorca Airport",
+                "IATA_Code": "PMI"
+            },
+            {
+                "Location": "Pamplona",
+                "Airport": "Pamplona Airport",
+                "IATA_Code": "PNA"
+            },
+            {
+                "Location": "Reus",
+                "Airport": "Reus Airport",
+                "IATA_Code": "REU"
+            },
+            {
+                "Location": "Santander",
+                "Airport": "Santander Airport",
+                "IATA_Code": "SDR"
+            },
+            {
+                "Location": "Santiago de Compostela",
+                "Airport": "Santiago de Compostela Airport",
+                "IATA_Code": "SCQ"
+            },
+            {
+                "Location": "Seville",
+                "Airport": "Seville Airport",
+                "IATA_Code": "SVQ"
+            },
+            {
+                "Location": "Tenerife",
+                "Airport": "Tenerife North–Ciudad de La Laguna Airport",
+                "IATA_Code": "TFN"
+            },
+            {
+                "Location": "Tenerife South Airport",
+                "Airport": "Tenerife South Airport",
+                "IATA_Code": "TFS"
+            },
+            {
+                "Location": "Valencia",
+                "Airport": "Valencia Airport",
+                "IATA_Code": "VLC"
+            },
+            {
+                "Location": "Valladolid",
+                "Airport": "Valladolid Airport",
+                "IATA_Code": "VLL"
+            },
+            {
+                "Location": "Vigo",
+                "Airport": "Vigo–Peinador Airport",
+                "IATA_Code": "VGO"
+            },
+            {
+                "Location": "Vitoria-Gasteiz",
+                "Airport": "Vitoria Airport",
+                "IATA_Code": "VIT"
+            },
+            {
+                "Location": "Zaragoza",
+                "Airport": "Zaragoza Airport",
+                "IATA_Code": "ZAZ"
+            }
+        ]
+    },
+    {
+      "name": "Albania",
+        "Cities": [
+            {
+                "Location": "Tirana",
+                "Airport": "Tirana International Airport Nënë Tereza",
+                "IATA_Code": "TIA"
+            },
+            {
+                "Location": "Kukes",
+                "Airport": "Kukës International Airport Zayed",
+                "IATA_Code": "KFZ"
+            }
+        ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+        "Cities": [
+            {
+                "Location": "Banja Luka",
+                "Airport": "Banja Luka International Airport",
+                "IATA_Code": "BNX"
+            },
+            {
+                "Location": "Sarajevo",
+                "Airport": "Sarajevo International Airport",
+                "IATA_Code": "SJJ"
+            },
+            {
+                "Location": "Tuzla",
+                "Airport": "Tuzla International Airport",
+                "IATA_Code": "TZL"
+            },
+            {
+                "Location": "Mostar",
+                "Airport": "Mostar International Airport",
+                "IATA_Code": "OMO"
+            }
+        ]
+    },
+    {
+      "name": "Bulgaria",
+        "Cities": [
+            {
+                "Location": "Burgas",
+                "Airport": "Burgas Airport",
+                "IATA_Code": "BOJ"
+            },
+            {
+                "Location": "Plovdiv",
+                "Airport": "Plovdiv Airport",
+                "IATA_Code": "PDV"
+            },
+            {
+                "Location": "Sofia",
+                "Airport": "Sofia Airport",
+                "IATA_Code": "SOF"
+            },
+            {
+                "Location": "Varna",
+                "Airport": "Varna Airport",
+                "IATA_Code": "VAR"
+            }
+        ]
+    },
+    {
+      "name": "Kosovo",
+        "Cities": [
+            {
+                "Location": "Pristina",
+                "Airport": "Pristina International Airport",
+                "IATA_Code": "PRN"
+            }
+        ]
+    },
+    {
+      "name": "Moldova",
+        "Cities": [
+            {
+                "Location": "Chişinău",
+                "Airport": "Chișinău International Airport",
+                "IATA_Code": "KIV"
+            }
+        ]
+    },
+    {
+      "name": "Romania",
+        "Cities": [
+            {
+                "Location": "Arad",
+                "Airport": "Arad International Airport",
+                "IATA_Code": "ARW"
+            },
+            {
+                "Location": "Bacau",
+                "Airport": "George Enescu International Airport",
+                "IATA_Code": "BCM"
+            },
+            {
+                "Location": "Baia Mare",
+                "Airport": "Maramureș Airport",
+                "IATA_Code": "BAY"
+            },
+            {
+                "Location": "Brașov",
+                "Airport": "Brașov-Ghimbav International Airport",
+                "IATA_Code": "GHV"
+            },
+            {
+                "Location": "Bucharest",
+                "Airport": "Henri Coandă International Airport",
+                "IATA_Code": "OTP"
+            },
+            {
+                "Location": "Bucharest",
+                "Airport": "Aurel Vlaicu International Airport",
+                "IATA_Code": "BBU"
+            },
+            {
+                "Location": "Cluj-Napoca",
+                "Airport": "Cluj-Napoca International Airport",
+                "IATA_Code": "CLJ"
+            },
+            {
+                "Location": "Constanța",
+                "Airport": "Mihail Kogălniceanu International Airport",
+                "IATA_Code": "CND"
+            },
+            {
+                "Location": "Craiova",
+                "Airport": "Craiova International Airport",
+                "IATA_Code": "CRA"
+            },
+            {
+                "Location": "Iași",
+                "Airport": "Iași International Airport",
+                "IATA_Code": "IAS"
+            },
+            {
+                "Location": "Oradea",
+                "Airport": "Oradea International Airport",
+                "IATA_Code": "OMR"
+            },
+            {
+                "Location": "Satu Mare",
+                "Airport": "Satu Mare International Airport",
+                "IATA_Code": "SUJ"
+            },
+            {
+                "Location": "Sibiu",
+                "Airport": "Sibiu International Airport",
+                "IATA_Code": "SBZ"
+            },
+            {
+                "Location": "Suceava",
+                "Airport": "Suceava International Airport",
+                "IATA_Code": "SCV"
+            },
+            {
+                "Location": "Târgu Mureș",
+                "Airport": "Târgu Mureș International Airport",
+                "IATA_Code": "TGM"
+            },
+            {
+                "Location": "Timișoara",
+                "Airport": "Timișoara Traian Vuia International Airport",
+                "IATA_Code": "TSR"
+            }
+        ]
+    },
+    {
+      "name": "Montenegro",
+        "Cities": [
+            {
+                "Location": "Podgorica",
+                "Airport": "Podgorica Airport",
+                "IATA_Code": "TGD"
+            },
+            {
+                "Location": "Tivat",
+                "Airport": "Tivat Airport",
+                "IATA_Code": "TIV"
+            }
+        ]
+    },
+    {
+      "name": "North Macedonia",
+        "Cities": [
+            {
+                "Location": "Ohrid",
+                "Airport": "Ohrid St. Paul the Apostle Airport",
+                "IATA_Code": "OHD"
+            },
+            {
+                "Location": "Skopje",
+                "Airport": "Skopje International Airport",
+                "IATA_Code": "SKP"
+            }
+        ]
+    },
+    {
+      "name": "Russia",
+        "Cities": [
+            {
+                "Location": "Abakan",
+                "Airport": "Abakan International Airport",
+                "IATA_Code": "ABA"
+            },
+            {
+                "Location": "Anadyr",
+                "Airport": "Ugolny Airport",
+                "IATA_Code": "DYR"
+            },
+            {
+                "Location": "Anapa",
+                "Airport": "Anapa Airport",
+                "IATA_Code": "AAQ"
+            },
+            {
+                "Location": "Arkhangelsk",
+                "Airport": "Talagi Airport",
+                "IATA_Code": "ARH"
+            },
+            {
+                "Location": "Astrakhan",
+                "Airport": "Narimanovo Airport",
+                "IATA_Code": "ASF"
+            },
+            {
+                "Location": "Barnaul",
+                "Airport": "Barnaul Airport",
+                "IATA_Code": "BAX"
+            },
+            {
+                "Location": "Belgorod",
+                "Airport": "Belgorod International Airport",
+                "IATA_Code": "EGO"
+            },
+            {
+                "Location": "Blagoveshchensk",
+                "Airport": "Ignatyevo Airport",
+                "IATA_Code": "BQS"
+            },
+            {
+                "Location": "Bratsk",
+                "Airport": "Bratsk Airport",
+                "IATA_Code": "BTK"
+            },
+            {
+                "Location": "Bryansk",
+                "Airport": "Bryansk International Airport",
+                "IATA_Code": "BZK"
+            },
+            {
+                "Location": "Cheboksary",
+                "Airport": "Cheboksary International Airport",
+                "IATA_Code": "CSY"
+            },
+            {
+                "Location": "Chelyabinsk",
+                "Airport": "Chelyabinsk Airport",
+                "IATA_Code": "CEK"
+            },
+            {
+                "Location": "Cherepovets",
+                "Airport": "Cherepovets Airport",
+                "IATA_Code": "CEE"
+            },
+            {
+                "Location": "Chita",
+                "Airport": "Chita-Kadala International Airport",
+                "IATA_Code": "HTA"
+            },
+            {
+                "Location": "Elista",
+                "Airport": "Elista Airport",
+                "IATA_Code": "ESL"
+            },
+            {
+                "Location": "Irkutsk",
+                "Airport": "Irkutsk Airport",
+                "IATA_Code": "IKT"
+            },
+            {
+                "Location": "Grozny",
+                "Airport": "Grozny Airport",
+                "IATA_Code": "GRV"
+            },
+            {
+                "Location": "Kaliningrad",
+                "Airport": "Khrabrovo Airport",
+                "IATA_Code": "KGD"
+            },
+            {
+                "Location": "Kazan",
+                "Airport": "Kazan Airport",
+                "IATA_Code": "KZN"
+            },
+            {
+                "Location": "Khabarovsk",
+                "Airport": "Khabarovsk Novy Airport",
+                "IATA_Code": "KHV"
+            },
+            {
+                "Location": "Komsomolsk-on-Amur",
+                "Airport": "Komsomolsk-on-Amur Airport",
+                "IATA_Code": "KXK"
+            },
+            {
+                "Location": "Krasnodar",
+                "Airport": "Pashkovsky Airport",
+                "IATA_Code": "KRR"
+            },
+            {
+                "Location": "Krasnoyarsk",
+                "Airport": "Yemelyanovo International Airport",
+                "IATA_Code": "KJA"
+            },
+            {
+                "Location": "Kursk",
+                "Airport": "Kursk Vostochny Airport",
+                "IATA_Code": "URS"
+            },
+            {
+                "Location": "Magadan",
+                "Airport": "Sokol Airport",
+                "IATA_Code": "GDX"
+            },
+            {
+                "Location": "Magnitogorsk",
+                "Airport": "Magnitogorsk International Airport",
+                "IATA_Code": "MQF"
+            },
+            {
+                "Location": "Makhachkala",
+                "Airport": "Uytash Airport",
+                "IATA_Code": "MCX"
+            },
+            {
+                "Location": "Mineralnye Vody",
+                "Airport": "Mineralnye Vody Airport",
+                "IATA_Code": "MRV"
+            },
+            {
+                "Location": "Moscow",
+                "Airport": "Domodedovo International Airport",
+                "IATA_Code": "DME"
+            },
+            {
+                "Location": "Moscow",
+                "Airport": "Zhukovsky International Airport",
+                "IATA_Code": "ZIA"
+            },
+            {
+                "Location": "Moscow",
+                "Airport": "Sheremetyevo International Airport",
+                "IATA_Code": "SVO"
+            },
+            {
+                "Location": "Moscow",
+                "Airport": "Vnukovo Airport",
+                "IATA_Code": "VKO"
+            },
+            {
+                "Location": "Murmansk",
+                "Airport": "Murmansk Airport",
+                "IATA_Code": "MMK"
+            },
+            {
+                "Location": "Nalchik",
+                "Airport": "Nalchik Airport",
+                "IATA_Code": "NAL"
+            },
+            {
+                "Location": "Nizhnevartovsk",
+                "Airport": "Nizhnevartovsk Airport",
+                "IATA_Code": "NJC"
+            },
+            {
+                "Location": "Nizhnekamsk",
+                "Airport": "Begishevo Airport",
+                "IATA_Code": "NBC"
+            },
+            {
+                "Location": "Nizhny Novgorod",
+                "Airport": "Strigino Airport",
+                "IATA_Code": "GOJ"
+            },
+            {
+                "Location": "Novokuznetsk",
+                "Airport": "Spichenkovo Airport",
+                "IATA_Code": "NOZ"
+            },
+            {
+                "Location": "Novosibirsk",
+                "Airport": "Tolmachevo Airport",
+                "IATA_Code": "OVB"
+            },
+            {
+                "Location": "Omsk",
+                "Airport": "Omsk Tsentralny Airport",
+                "IATA_Code": "OMS"
+            },
+            {
+                "Location": "Orenburg",
+                "Airport": "Orenburg Tsentralny Airport",
+                "IATA_Code": "REN"
+            },
+            {
+                "Location": "Orsk",
+                "Airport": "Orsk Airport",
+                "IATA_Code": "OSW"
+            },
+            {
+                "Location": "Perm",
+                "Airport": "Perm International Airport",
+                "IATA_Code": "PEE"
+            },
+            {
+                "Location": "Petrozavodsk",
+                "Airport": "Petrozavodsk Airport",
+                "IATA_Code": "PES"
+            },
+            {
+                "Location": "Provideniya",
+                "Airport": "Provideniya Bay Airport",
+                "IATA_Code": "PVS"
+            },
+            {
+                "Location": "Petropavlovsk-Kamchatsky",
+                "Airport": "Yelizovo Airport",
+                "IATA_Code": "PKC"
+            },
+            {
+                "Location": "Pskov",
+                "Airport": "Pskov Airport",
+                "IATA_Code": "PKV"
+            },
+            {
+                "Location": "Rostov-on-Don",
+                "Airport": "Platov International Airport",
+                "IATA_Code": "ROV"
+            },
+            {
+                "Location": "Saint Petersburg",
+                "Airport": "Pulkovo Airport",
+                "IATA_Code": "LED"
+            },
+            {
+                "Location": "Samara",
+                "Airport": "Samara Kurumoch Airport",
+                "IATA_Code": "KUF"
+            },
+            {
+                "Location": "Saratov",
+                "Airport": "Saratov Gagarin Airport",
+                "IATA_Code": "GSV"
+            },
+            {
+                "Location": "Sochi",
+                "Airport": "Sochi International Airport",
+                "IATA_Code": "AER"
+            },
+            {
+                "Location": "Stavropol",
+                "Airport": "Stavropol Shpakovskoye Airport",
+                "IATA_Code": "STW"
+            },
+            {
+                "Location": "Surgut",
+                "Airport": "Surgut International Airport",
+                "IATA_Code": "SGC"
+            },
+            {
+                "Location": "Syktyvkar",
+                "Airport": "Syktyvkar Airport",
+                "IATA_Code": "SCW"
+            },
+            {
+                "Location": "Tomsk",
+                "Airport": "Bogashevo Airport",
+                "IATA_Code": "TOF"
+            },
+            {
+                "Location": "Tyumen",
+                "Airport": "Roshchino International Airport",
+                "IATA_Code": "TJM"
+            },
+            {
+                "Location": "Ulan-Ude",
+                "Airport": "Baikal International Airport",
+                "IATA_Code": "UUD"
+            },
+            {
+                "Location": "Ulyanovsk",
+                "Airport": "Ulyanovsk Baratayevka Airport",
+                "IATA_Code": "ULV"
+            },
+            {
+                "Location": "Ufa",
+                "Airport": "Ufa International Airport",
+                "IATA_Code": "UFA"
+            },
+            {
+                "Location": "Vladivostok",
+                "Airport": "Vladivostok International Airport",
+                "IATA_Code": "VVO"
+            },
+            {
+                "Location": "Vladikavkaz",
+                "Airport": "Beslan Airport",
+                "IATA_Code": "OGZ"
+            },
+            {
+                "Location": "Volgograd",
+                "Airport": "Volgograd International Airport",
+                "IATA_Code": "VOG"
+            },
+            {
+                "Location": "Voronezh",
+                "Airport": "Voronezh International Airport",
+                "IATA_Code": "VOZ"
+            },
+            {
+                "Location": "Yakutsk",
+                "Airport": "Yakutsk Airport",
+                "IATA_Code": "YKS"
+            },
+            {
+                "Location": "Yaroslavl",
+                "Airport": "Tunoshna Airport",
+                "IATA_Code": "IAR"
+            },
+            {
+                "Location": "Yekaterinburg",
+                "Airport": "Koltsovo International Airport",
+                "IATA_Code": "SVX"
+            },
+            {
+                "Location": "Yuzhno-Sakhalinsk",
+                "Airport": "Yuzhno-Sakhalinsk Airport",
+                "IATA_Code": "UUS"
+            }
+        ]
+    },
+    {
+      "name": "Turkey",
+        "Cities": [
+            {
+                "Location": "Adana",
+                "Airport": "Şakirpaşa Airport",
+                "IATA_Code": "ADA"
+            },
+            {
+                "Location": "Alanya",
+                "Airport": "Gazipaşa Airport",
+                "IATA_Code": "GZP"
+            },
+            {
+                "Location": "Ankara",
+                "Airport": "Esenboğa International Airport",
+                "IATA_Code": "ESB"
+            },
+            {
+                "Location": "Antalya",
+                "Airport": "Antalya Airport",
+                "IATA_Code": "AYT"
+            },
+            {
+                "Location": "Bodrum",
+                "Airport": "Milas–Bodrum Airport",
+                "IATA_Code": "BJV"
+            },
+            {
+                "Location": "Bursa",
+                "Airport": "Yenişehir Airport",
+                "IATA_Code": "YEI"
+            },
+            {
+                "Location": "Dalaman",
+                "Airport": "Dalaman Airport",
+                "IATA_Code": "DLM"
+            },
+            {
+                "Location": "Denizli",
+                "Airport": "Denizli Çardak Airport",
+                "IATA_Code": "DNZ"
+            },
+            {
+                "Location": "Diyarbakır",
+                "Airport": "Diyarbakır Airport",
+                "IATA_Code": "DIY"
+            },
+            {
+                "Location": "Elazığ",
+                "Airport": "Elazığ Airport",
+                "IATA_Code": "EZS"
+            },
+            {
+                "Location": "Gaziantep",
+                "Airport": "Oğuzeli Airport",
+                "IATA_Code": "GZT"
+            },
+            {
+                "Location": "Istanbul",
+                "Airport": "Istanbul Airport",
+                "IATA_Code": "IST"
+            },
+            {
+                "Location": "Istanbul",
+                "Airport": "Sabiha Gökçen International Airport",
+                "IATA_Code": "SAW"
+            },
+            {
+                "Location": "İzmir",
+                "Airport": "Adnan Menderes Airport",
+                "IATA_Code": "ADB"
+            },
+            {
+                "Location": "Kayseri",
+                "Airport": "Erkilet Airport",
+                "IATA_Code": "ASR"
+            },
+            {
+                "Location": "Konya",
+                "Airport": "Konya Airport",
+                "IATA_Code": "KYA"
+            },
+            {
+                "Location": "Kütahya",
+                "Airport": "Zafer Airport",
+                "IATA_Code": "KZR"
+            },
+            {
+                "Location": "Malatya",
+                "Airport": "Erhaç Airport",
+                "IATA_Code": "MLX"
+            },
+            {
+                "Location": "Nevşehir",
+                "Airport": "Kapadokya Airport",
+                "IATA_Code": "NAV"
+            },
+            {
+                "Location": "Samsun",
+                "Airport": "Samsun-Çarşamba Airport",
+                "IATA_Code": "SZF"
+            },
+            {
+                "Location": "Trabzon",
+                "Airport": "Trabzon Airport",
+                "IATA_Code": "TZX"
+            },
+            {
+                "Location": "Zonguldak",
+                "Airport": "Zonguldak Airport",
+                "IATA_Code": "ONQ"
+            }
+        ]
+    },
+    {
+      "name": "Denmark",
+        "Cities": [
+            {
+            "Location": "Aalborg",
+            "Airport": "Aalborg Airport",
+            "IATA_Code": "AAL"
+            },
+            {
+            "Location": "Aarhus",
+            "Airport": "Aarhus Airport",
+            "IATA_Code": "AAR"
+            },
+            {
+            "Location": "Billund",
+            "Airport": "Billund Airport",
+            "IATA_Code": "BLL"
+            },
+            {
+            "Location": "Copenhagen",
+            "Airport": "Copenhagen Airport",
+            "IATA_Code": "CPH"
+            }
+        ]
+    },
+    {
+      "name": "Ukraine",
+        "Cities": [
+            {
+                "Location": "Chernivtsi",
+                "Airport": "Chernivtsi International Airport",
+                "IATA_Code": "CWC"
+            },
+            {
+                "Location": "Dnipro",
+                "Airport": "Dnipro International Airport",
+                "IATA_Code": "DNK"
+            },
+            {
+                "Location": "Ivano-Frankivsk",
+                "Airport": "Ivano-Frankivsk International Airport",
+                "IATA_Code": "IFO"
+            },
+            {
+                "Location": "Kharkiv",
+                "Airport": "Kharkiv International Airport",
+                "IATA_Code": "HRK"
+            },
+            {
+                "Location": "Kryvyi Rih",
+                "Airport": "Kryvyi Rih International Airport",
+                "IATA_Code": "KWG"
+            },
+            {
+                "Location": "Kyiv",
+                "Airport": "Boryspil International Airport",
+                "IATA_Code": "KBP"
+            },
+            {
+                "Location": "Kyiv",
+                "Airport": "Kyiv International Airport",
+                "IATA_Code": "IEV"
+            },
+            {
+                "Location": "Lviv",
+                "Airport": "Lviv Danylo Halytskyi International Airport",
+                "IATA_Code": "LWO"
+            },
+            {
+                "Location": "Mykolaiv",
+                "Airport": "Mykolaiv International Airport",
+                "IATA_Code": "NLV"
+            },
+            {
+                "Location": "Odesa",
+                "Airport": "Odesa International Airport",
+                "IATA_Code": "ODS"
+            },
+            {
+                "Location": "Poltava",
+                "Airport": "Poltava Airport",
+                "IATA_Code": "PLV"
+            },
+            {
+                "Location": "Simferopol",
+                "Airport": "Simferopol International Airport",
+                "IATA_Code": "SIP"
+            },
+            {
+                "Location": "Uzhhorod",
+                "Airport": "Uzhhorod International Airport",
+                "IATA_Code": "UDJ"
+            },
+            {
+                "Location": "Zaporizhzhia",
+                "Airport": "Zaporizhzhia International Airport",
+                "IATA_Code": "OZH"
+            }
+        ]
+    },
+    {
+      "name": "Estonia",
+    "Cities": [
+      {
+        "Location": "Tallinn",
+        "Airport": "Lennart Meri Tallinn Airport",
+        "IATA_Code": "TLL"
+      },
+      {
+        "Location": "Tartu",
+        "Airport": "Tartu Airport",
+        "IATA_Code": "TAY"
+      },
+      {
+        "Location": "Pärnu",
+        "Airport": "Pärnu Airport",
+        "IATA_Code": "EPU"
+      }
+    ]
+  },
+  {
+    "name": "Faroe Islands",
+    "Cities": [
+      {
+        "Location": "Vágar",
+        "Airport": "Vágar Airport",
+        "IATA_Code": "FAE"
+      }
+    ]
+  },
+  {
+    "name": "Finland",
+    "Cities": [
+      {
+        "Location": "Åland",
+        "Airport": "Mariehamn Airport",
+        "IATA_Code": "MHQ"
+      },
+      {
+        "Location": "Helsinki",
+        "Airport": "Helsinki-Vantaa Airport",
+        "IATA_Code": "HEL"
+      },
+      {
+        "Location": "Kittilä",
+        "Airport": "Kittilä Airport",
+        "IATA_Code": "KTT"
+      },
+      {
+        "Location": "Kuopio",
+        "Airport": "Kuopio Airport",
+        "IATA_Code": "KUO"
+      },
+      {
+        "Location": "Kuusamo",
+        "Airport": "Kuusamo Airport",
+        "IATA_Code": "KAO"
+      },
+      {
+        "Location": "Lappeenranta",
+        "Airport": "Lappeenranta Airport",
+        "IATA_Code": "LPP"
+      },
+      {
+        "Location": "Oulu",
+        "Airport": "Oulu Airport",
+        "IATA_Code": "OUL"
+      },
+      {
+        "Location": "Rovaniemi",
+        "Airport": "Rovaniemi Airport",
+        "IATA_Code": "RVN"
+      },
+      {
+        "Location": "Savonlinna",
+        "Airport": "Savonlinna Airport",
+        "IATA_Code": "SVL"
+      },
+      {
+        "Location": "Tampere",
+        "Airport": "Tampere–Pirkkala Airport",
+        "IATA_Code": "TMP"
+      },
+      {
+        "Location": "Turku",
+        "Airport": "Turku Airport",
+        "IATA_Code": "TKU"
+      },
+      {
+        "Location": "Vaasa",
+        "Airport": "Vaasa Airport",
+        "IATA_Code": "VAA"
+      }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "Cities": [
+      {
+        "Location": "Akureyri",
+        "Airport": "Akureyri Airport",
+        "IATA_Code": "AEY"
+      },
+      {
+        "Location": "Egilsstaðir",
+        "Airport": "Egilsstaðir Airport",
+        "IATA_Code": "EGS"
+      },
+      {
+        "Location": "Reykjavík",
+        "Airport": "Keflavik International Airport",
+        "IATA_Code": "KEF"
+      },
+      {
+        "Location": "Reykjavík",
+        "Airport": "Reykjavík Airport",
+        "IATA_Code": "RKV"
+      }
+    ]
+  },
+  {
+    "name": "Latvia",
+    "Cities": [
+      {
+        "Location": "Riga",
+        "Airport": "Riga International Airport",
+        "IATA_Code": "RIX"
+      },
+      {
+        "Location": "Ventspils",
+        "Airport": "Ventspils International Airport",
+        "IATA_Code": "VNT"
+      }
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "Cities": [
+      {
+        "Location": "Kaunas",
+        "Airport": "Kaunas Airport",
+        "IATA_Code": "KUN"
+      },
+      {
+        "Location": "Palanga",
+        "Airport": "Palanga International Airport",
+        "IATA_Code": "PLQ"
+      },
+      {
+        "Location": "Šiauliai",
+        "Airport": "Šiauliai International Airport",
+        "IATA_Code": "SQQ"
+      },
+      {
+        "Location": "Vilnius",
+        "Airport": "Vilnius Airport",
+        "IATA_Code": "VNO"
+      }
+    ]
+  },
+  {
+    "name": "Norway",
+    "Cities": [
+      {
+        "Location": "Ålesund",
+        "Airport": "Ålesund Airport",
+        "IATA_Code": "AES"
+      },
+      {
+        "Location": "Bergen",
+        "Airport": "Bergen Airport",
+        "IATA_Code": "BGO"
+      },
+      {
+        "Location": "Bodø",
+        "Airport": "Bodø Airport",
+        "IATA_Code": "BOO"
+      },
+      {
+        "Location": "Haugesund",
+        "Airport": "Haugesund Airport",
+        "IATA_Code": "HAU"
+      },
+      {
+        "Location": "Kristiansand",
+        "Airport": "Kristiansand Airport, Kjevik",
+        "IATA_Code": "KRS"
+      },
+      {
+        "Location": "Kristiansund",
+        "Airport": "Kristiansund Airport, Kvernberget",
+        "IATA_Code": "KSU"
+      },
+      {
+        "Location": "Oslo",
+        "Airport": "Oslo Airport, Gardermoen",
+        "IATA_Code": "OSL"
+      },
+      {
+        "Location": "Sandefjord",
+        "Airport": "Sandefjord Airport, Torp",
+        "IATA_Code": "TRF"
+      },
+      {
+        "Location": "Stavanger",
+        "Airport": "Stavanger Airport",
+        "IATA_Code": "SVG"
+      },
+      {
+        "Location": "Tromsø",
+        "Airport": "Tromsø Airport",
+        "IATA_Code": "TOS"
+      },
+      {
+        "Location": "Trondheim",
+        "Airport": "Trondheim Airport",
+        "IATA_Code": "TRD"
+      }
+    ]
+  },
+  {
+    "name": "Sweden",
+    "Cities": [
+      {
+        "Location": "Gothenburg",
+        "Airport": "Göteborg Landvetter Airport",
+        "IATA_Code": "GOT"
+      },
+      {
+        "Location": "Luleå",
+        "Airport": "Luleå Airport",
+        "IATA_Code": "LLA"
+      },
+      {
+        "Location": "Malmö",
+        "Airport": "Malmö Airport",
+        "IATA_Code": "MMX"
+      },
+      {
+        "Location": "Norrköping",
+        "Airport": "Norrköping Airport",
+        "IATA_Code": "NRK"
+      },
+      {
+        "Location": "Östersund",
+        "Airport": "Åre Östersund Airport",
+        "IATA_Code": "OSD"
+      },
+      {
+        "Location": "Stockholm",
+        "Airport": "Stockholm Arlanda Airport",
+        "IATA_Code": "ARN"
+      },
+      {
+        "Location": "Stockholm",
+        "Airport": "Stockholm Bromma Airport",
+        "IATA_Code": "BMA"
+      },
+      {
+        "Location": "Stockholm",
+        "Airport": "Stockholm Skavsta Airport",
+        "IATA_Code": "NYO"
+      },
+      {
+        "Location": "Stockholm",
+        "Airport": "Stockholm Västerås Airport",
+        "IATA_Code": "VST"
+      },
+      {
+        "Location": "Sundsvall",
+        "Airport": "Sundsvall–Timrå Airport",
+        "IATA_Code": "SDL"
+      },
+      {
+        "Location": "Umeå",
+        "Airport": "Umeå Airport",
+        "IATA_Code": "UME"
+      },
+      {
+        "Location": "Växjö",
+        "Airport": "Växjö Airport",
+        "IATA_Code": "VXO"
+      },
+      {
+        "Location": "Visby",
+        "Airport": "Visby Airport",
+        "IATA_Code": "VBY"
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "Cities": [
+      {
+        "Location": "Akron",
+        "Airport": "Akron Executive Airport",
+        "IATA_Code": "AKC"
+      },
+      {
+        "Location": "Albany",
+        "Airport": "Albany International Airport",
+        "IATA_Code": "ALB"
+      },
+      {
+        "Location": "Albuquerque",
+        "Airport": "Albuquerque International Sunport",
+        "IATA_Code": "ABQ"
+      },
+      {
+        "Location": "Anchorage",
+        "Airport": "Ted Stevens Anchorage International Airport",
+        "IATA_Code": "ANC"
+      },
+      {
+        "Location": "Appleton",
+        "Airport": "Appleton International Airport",
+        "IATA_Code": "ATW"
+      },
+      {
+        "Location": "Atlanta",
+        "Airport": "Hartsfield–Jackson Atlanta International Airport",
+        "IATA_Code": "ATL"
+      },
+      {
+        "Location": "Atlantic City",
+        "Airport": "Atlantic City International Airport",
+        "IATA_Code": "ACY"
+      },
+      {
+        "Location": "Austin (TX)",
+        "Airport": "Austin–Bergstrom International Airport",
+        "IATA_Code": "AUS"
+      },
+      {
+        "Location": "Baltimore",
+        "Airport": "Baltimore/Washington International Airport",
+        "IATA_Code": "BWI"
+      },
+      {
+        "Location": "Bangor",
+        "Airport": "Bangor International Airport",
+        "IATA_Code": "BGR"
+      },
+      {
+        "Location": "Bellingham",
+        "Airport": "Bellingham International Airport",
+        "IATA_Code": "BLI"
+      },
+      {
+        "Location": "Birmingham",
+        "Airport": "Birmingham–Shuttlesworth International Airport",
+        "IATA_Code": "BHM"
+      },
+      {
+        "Location": "Boise",
+        "Airport": "Boise Airport",
+        "IATA_Code": "BOI"
+      },
+      {
+        "Location": "Boston",
+        "Airport": "Logan International Airport",
+        "IATA_Code": "BOS"
+      },
+      {
+        "Location": "Buffalo",
+        "Airport": "Buffalo Niagara International Airport",
+        "IATA_Code": "BUF"
+      },
+      {
+        "Location": "Charlotte",
+        "Airport": "Charlotte Douglas International Airport",
+        "IATA_Code": "CLT"
+      },
+      {
+        "Location": "Charleston (SC)",
+        "Airport": "Charleston International Airport",
+        "IATA_Code": "CHS"
+      },
+      {
+        "Location": "Chicago",
+        "Airport": "Midway International Airport",
+        "IATA_Code": "MDW"
+      },
+      {
+        "Location": "Chicago",
+        "Airport": "O'Hare International Airport",
+        "IATA_Code": "ORD"
+      },
+      {
+        "Location": "Cincinnati",
+        "Airport": "Cincinnati/Northern Kentucky International Airport",
+        "IATA_Code": "CVG"
+      },
+      {
+        "Location": "Cleveland",
+        "Airport": "Cleveland Hopkins International Airport",
+        "IATA_Code": "CLE"
+      },
+      {
+        "Location": "Columbus (OH)",
+        "Airport": "John Glenn Columbus International Airport",
+        "IATA_Code": "CMH"
+      },
+      {
+        "Location": "Columbus (OH)",
+        "Airport": "Rickenbacker International Airport",
+        "IATA_Code": "LCK"
+      },
+      {
+        "Location": "Dallas/Fort Worth",
+        "Airport": "Dallas/Fort Worth International Airport",
+        "IATA_Code": "DFW"
+      },
+      {
+        "Location": "Dayton (OH)",
+        "Airport": "Dayton International Airport",
+        "IATA_Code": "DAY"
+      },
+      {
+        "Location": "Denver",
+        "Airport": "Denver International Airport",
+        "IATA_Code": "DEN"
+      },
+      {
+        "Location": "Des Moines (IA)",
+        "Airport": "Des Moines International Airport",
+        "IATA_Code": "DSM"
+      },
+      {
+        "Location": "Detroit",
+        "Airport": "Detroit Metropolitan Airport",
+        "IATA_Code": "DTW"
+      },
+      {
+        "Location": "El Paso",
+        "Airport": "El Paso International Airport",
+        "IATA_Code": "ELP"
+      },
+      {
+        "Location": "Fairbanks",
+        "Airport": "Fairbanks International Airport",
+        "IATA_Code": "FAI"
+      },
+      {
+        "Location": "Fort Lauderdale",
+        "Airport": "Fort Lauderdale–Hollywood International Airport",
+        "IATA_Code": "FLL"
+      },
+      {
+        "Location": "Fort Myers",
+        "Airport": "Southwest Florida International Airport",
+        "IATA_Code": "RSW"
+      },
+      {
+        "Location": "Fresno",
+        "Airport": "Fresno Yosemite International Airport",
+        "IATA_Code": "FAT"
+      },
+      {
+        "Location": "Grand Rapids",
+        "Airport": "Gerald R. Ford International Airport",
+        "IATA_Code": "GRR"
+      },
+      {
+        "Location": "Green Bay",
+        "Airport": "Green Bay–Austin Straubel International Airport",
+        "IATA_Code": "GRB"
+      },
+      {
+        "Location": "Greensboro",
+        "Airport": "Piedmont Triad International Airport",
+        "IATA_Code": "GSO"
+      },
+      {
+        "Location": "Harrisburg",
+        "Airport": "Harrisburg International Airport",
+        "IATA_Code": "MDT"
+      },
+      {
+        "Location": "Hartford (CT)",
+        "Airport": "Bradley International Airport",
+        "IATA_Code": "BDL"
+      },
+      {
+        "Location": "Hilo",
+        "Airport": "Hilo International Airport",
+        "IATA_Code": "ITO"
+      },
+      {
+        "Location": "Honolulu",
+        "Airport": "Daniel K. Inouye International Airport",
+        "IATA_Code": "HNL"
+      },
+      {
+        "Location": "Houston",
+        "Airport": "George Bush Intercontinental Airport",
+        "IATA_Code": "IAH"
+      },
+      {
+        "Location": "Houston",
+        "Airport": "William P. Hobby Airport",
+        "IATA_Code": "HOU"
+      },
+      {
+        "Location": "Huntsville (AL)",
+        "Airport": "Huntsville International Airport",
+        "IATA_Code": "HSV"
+      },
+      {
+        "Location": "Indianapolis",
+        "Airport": "Indianapolis International Airport",
+        "IATA_Code": "IND"
+      },
+      {
+        "Location": "Jackson (MS)",
+        "Airport": "Jackson–Medgar Wiley Evers International Airport",
+        "IATA_Code": "JAN"
+      },
+      {
+        "Location": "Jacksonville",
+        "Airport": "Jacksonville International Airport",
+        "IATA_Code": "JAX"
+      },
+      {
+        "Location": "Juneau",
+        "Airport": "Juneau International Airport",
+        "IATA_Code": "JNU"
+      },
+      {
+        "Location": "Kansas City (MO)",
+        "Airport": "Kansas City International Airport",
+        "IATA_Code": "MCI"
+      },
+      {
+        "Location": "Ketchikan",
+        "Airport": "Ketchikan International Airport",
+        "IATA_Code": "KTN"
+      },
+      {
+        "Location": "Key West",
+        "Airport": "Key West International Airport",
+        "IATA_Code": "EYW"
+      },
+      {
+        "Location": "Kailua-Kona",
+        "Airport": "Kona International Airport",
+        "IATA_Code": "KOA"
+      },
+      {
+        "Location": "Knoxville",
+        "Airport": "McGhee Tyson Airport",
+        "IATA_Code": "TYS"
+      },
+      {
+        "Location": "Lakeland",
+        "Airport": "Lakeland Linder International Airport",
+        "IATA_Code": "LAL"
+      },
+      {
+        "Location": "Lansing",
+        "Airport": "Capital Region International Airport",
+        "IATA_Code": "LAN"
+      },
+      {
+        "Location": "Las Vegas",
+        "Airport": "Harry Reid International Airport",
+        "IATA_Code": "LAS"
+      },
+      {
+        "Location": "Little Rock",
+        "Airport": "Clinton National Airport",
+        "IATA_Code": "LIT"
+      },
+      {
+        "Location": "Los Angeles",
+        "Airport": "Los Angeles International Airport",
+        "IATA_Code": "LAX"
+      },
+      {
+        "Location": "Louisville",
+        "Airport": "Louisville Muhammad Ali International Airport",
+        "IATA_Code": "SDF"
+      },
+      {
+        "Location": "Melbourne (FL)",
+        "Airport": "Melbourne Orlando International Airport",
+        "IATA_Code": "MLB"
+      },
+      {
+        "Location": "Memphis",
+        "Airport": "Memphis International Airport",
+        "IATA_Code": "MEM"
+      },
+      {
+        "Location": "Miami",
+        "Airport": "Miami International Airport",
+        "IATA_Code": "MIA"
+      },
+      {
+        "Location": "Midland",
+        "Airport": "Midland International Air and Space Port",
+        "IATA_Code": "MAF"
+      },
+      {
+        "Location": "Milwaukee",
+        "Airport": "General Mitchell International Airport",
+        "IATA_Code": "MKE"
+      },
+      {
+        "Location": "Minneapolis/St. Paul",
+        "Airport": "Minneapolis–Saint Paul International Airport",
+        "IATA_Code": "MSP"
+      },
+      {
+        "Location": "Myrtle Beach",
+        "Airport": "Myrtle Beach International Airport",
+        "IATA_Code": "MYR"
+      },
+      {
+        "Location": "Nashville",
+        "Airport": "Nashville International Airport",
+        "IATA_Code": "BNA"
+      },
+      {
+        "Location": "New Orleans",
+        "Airport": "Louis Armstrong New Orleans International Airport",
+        "IATA_Code": "MSY"
+      },
+      {
+        "Location": "New York City",
+        "Airport": "John F. Kennedy International Airport",
+        "IATA_Code": "JFK"
+      },
+      {
+        "Location": "New York City",
+        "Airport": "LaGuardia Airport",
+        "IATA_Code": "LGA"
+      },
+      {
+        "Location": "Newark",
+        "Airport": "Newark Liberty International Airport",
+        "IATA_Code": "EWR"
+      },
+      {
+        "Location": "Newburgh",
+        "Airport": "Stewart International Airport",
+        "IATA_Code": "SWF"
+      },
+      {
+        "Location": "Norfolk (VA)",
+        "Airport": "Norfolk International Airport",
+        "IATA_Code": "ORF"
+      },
+      {
+        "Location": "Oakland",
+        "Airport": "Oakland International Airport",
+        "IATA_Code": "OAK"
+      },
+      {
+        "Location": "Oklahoma City",
+        "Airport": "Will Rogers World Airport",
+        "IATA_Code": "OKC"
+      },
+      {
+        "Location": "Omaha",
+        "Airport": "Eppley Airfield",
+        "IATA_Code": "OMA"
+      },
+      {
+        "Location": "Ontario",
+        "Airport": "Ontario International Airport",
+        "IATA_Code": "ONT"
+      },
+      {
+        "Location": "Orange County (CA)",
+        "Airport": "John Wayne Airport",
+        "IATA_Code": "SNA"
+      },
+      {
+        "Location": "Orlando",
+        "Airport": "Orlando International Airport",
+        "IATA_Code": "MCO"
+      },
+      {
+        "Location": "Palm Springs",
+        "Airport": "Palm Springs International Airport",
+        "IATA_Code": "PSP"
+      },
+      {
+        "Location": "Panama City (FL)",
+        "Airport": "Northwest Florida Beaches International Airport",
+        "IATA_Code": "ECP"
+      },
+      {
+        "Location": "Pensacola",
+        "Airport": "Pensacola International Airport",
+        "IATA_Code": "PNS"
+      },
+      {
+        "Location": "Philadelphia",
+        "Airport": "Philadelphia International Airport",
+        "IATA_Code": "PHL"
+      },
+      {
+        "Location": "Phoenix",
+        "Airport": "Phoenix Sky Harbor International Airport",
+        "IATA_Code": "PHX"
+      },
+      {
+        "Location": "Mesa, Arizona",
+        "Airport": "Phoenix–Mesa Gateway Airport",
+        "IATA_Code": "AZA"
+      },
+      {
+        "Location": "Pittsburgh",
+        "Airport": "Pittsburgh International Airport",
+        "IATA_Code": "PIT"
+      },
+      {
+        "Location": "Portland (ME)",
+        "Airport": "Portland International Jetport",
+        "IATA_Code": "PWM"
+      },
+      {
+        "Location": "Portland (OR)",
+        "Airport": "Portland International Airport",
+        "IATA_Code": "PDX"
+      },
+      {
+        "Location": "Providence",
+        "Airport": "Rhode Island T. F. Green International Airport",
+        "IATA_Code": "PVD"
+      },
+      {
+        "Location": "Raleigh",
+        "Airport": "Raleigh–Durham International Airport",
+        "IATA_Code": "RDU"
+      },
+      {
+        "Location": "Reno",
+        "Airport": "Reno–Tahoe International Airport",
+        "IATA_Code": "RNO"
+      },
+      {
+        "Location": "Richmond (VA) (Sandston)",
+        "Airport": "Richmond International Airport",
+        "IATA_Code": "RIC"
+      },
+      {
+        "Location": "Rochester (MN)",
+        "Airport": "Rochester International Airport",
+        "IATA_Code": "RST"
+      },
+      {
+        "Location": "Rochester (NY)",
+        "Airport": "Greater Rochester International Airport",
+        "IATA_Code": "ROC"
+      },
+      {
+        "Location": "Rockford (IL)",
+        "Airport": "Chicago Rockford International Airport",
+        "IATA_Code": "RFD"
+      },
+      {
+        "Location": "Sacramento",
+        "Airport": "Sacramento International Airport",
+        "IATA_Code": "SMF"
+      },
+      {
+        "Location": "Salt Lake City",
+        "Airport": "Salt Lake City International Airport",
+        "IATA_Code": "SLC"
+      },
+      {
+        "Location": "San Antonio",
+        "Airport": "San Antonio International Airport",
+        "IATA_Code": "SAT"
+      },
+      {
+        "Location": "San Bernardino",
+        "Airport": "San Bernardino International Airport",
+        "IATA_Code": "SBD"
+      },
+      {
+        "Location": "San Diego",
+        "Airport": "San Diego International Airport",
+        "IATA_Code": "SAN"
+      },
+      {
+        "Location": "San Francisco",
+        "Airport": "San Francisco International Airport",
+        "IATA_Code": "SFO"
+      },
+      {
+        "Location": "San Jose (CA)",
+        "Airport": "San Jose International Airport",
+        "IATA_Code": "SJC"
+      },
+      {
+        "Location": "Sanford, Florida",
+        "Airport": "Orlando Sanford International Airport",
+        "IATA_Code": "SFB"
+      },
+      {
+        "Location": "Sarasota/Bradenton",
+        "Airport": "Sarasota–Bradenton International Airport",
+        "IATA_Code": "SRQ"
+      },
+      {
+        "Location": "Savannah (GA)",
+        "Airport": "Savannah/Hilton Head International Airport",
+        "IATA_Code": "SAV"
+      },
+      {
+        "Location": "Seattle",
+        "Airport": "Kenmore Air Harbor Seaplane Base",
+        "IATA_Code": "LKE"
+      },
+      {
+        "Location": "Seattle",
+        "Airport": "King County International Airport",
+        "IATA_Code": "BFI"
+      },
+      {
+        "Location": "Seattle",
+        "Airport": "Seattle–Tacoma International Airport",
+        "IATA_Code": "SEA"
+      },
+      {
+        "Location": "Sheboygan",
+        "Airport": "Sheboygan County Memorial Airport",
+        "IATA_Code": "SBM"
+      },
+      {
+        "Location": "Everett (WA)",
+        "Airport": "Paine Field",
+        "IATA_Code": "PAE"
+      },
+      {
+        "Location": "Spokane",
+        "Airport": "Spokane International Airport",
+        "IATA_Code": "GEG"
+      },
+      {
+        "Location": "St. Louis",
+        "Airport": "St. Louis Lambert International Airport",
+        "IATA_Code": "STL"
+      },
+      {
+        "Location": "St. Petersburg (FL)",
+        "Airport": "St. Pete–Clearwater International Airport",
+        "IATA_Code": "PIE"
+      },
+      {
+        "Location": "Syracuse",
+        "Airport": "Syracuse Hancock International Airport",
+        "IATA_Code": "SYR"
+      },
+      {
+        "Location": "Tallahassee",
+        "Airport": "Tallahassee International Airport",
+        "IATA_Code": "TLH"
+      },
+      {
+        "Location": "Tampa",
+        "Airport": "Tampa International Airport",
+        "IATA_Code": "TPA"
+      },
+      {
+        "Location": "Tucson",
+        "Airport": "Tucson International Airport",
+        "IATA_Code": "TUS"
+      },
+      {
+        "Location": "Tulsa",
+        "Airport": "Tulsa International Airport",
+        "IATA_Code": "TUL"
+      },
+      {
+        "Location": "Washington, D.C.",
+        "Airport": "Ronald Reagan Washington National Airport",
+        "IATA_Code": "DCA"
+      },
+      {
+        "Location": "Washington, D.C.",
+        "Airport": "Dulles International Airport",
+        "IATA_Code": "IAD"
+      },
+      {
+        "Location": "West Palm Beach",
+        "Airport": "Palm Beach International Airport",
+        "IATA_Code": "PBI"
+      },
+      {
+        "Location": "Scranton",
+        "Airport": "Wilkes-Barre/Scranton International Airport",
+        "IATA_Code": "AVP"
+      },
+      {
+        "Location": "Wilmington (NC)",
+        "Airport": "Wilmington International Airport",
+        "IATA_Code": "ILM"
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "Cities": [
+      {
+        "Location": "Buenos Aires",
+        "Airport": "Ministro Pistarini International Airport",
+        "IATA_Code": "EZE"
+      },
+      {
+        "Location": "Buenos Aires",
+        "Airport": "Aeroparque Jorge Newbery",
+        "IATA_Code": "AEP"
+      },
+      {
+        "Location": "Bariloche",
+        "Airport": "San Carlos de Bariloche Airport",
+        "IATA_Code": "BRC"
+      },
+      {
+        "Location": "Comodoro Rivadavia",
+        "Airport": "General Enrique Mosconi International Airport",
+        "IATA_Code": "CRD"
+      },
+      {
+        "Location": "Córdoba",
+        "Airport": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+        "IATA_Code": "COR"
+      },
+      {
+        "Location": "Corrientes",
+        "Airport": "Doctor Fernando Piragine Niveyro International Airport",
+        "IATA_Code": "CNQ"
+      },
+      {
+        "Location": "El Calafate",
+        "Airport": "Comandante Armando Tola International Airport",
+        "IATA_Code": "FTE"
+      },
+      {
+        "Location": "El Palomar",
+        "Airport": "El Palomar Airport",
+        "IATA_Code": "EPA"
+      },
+      {
+        "Location": "Esquel",
+        "Airport": "Brigadier General Antonio Parodi International Airport",
+        "IATA_Code": "EQS"
+      },
+      {
+        "Location": "Formosa",
+        "Airport": "Formosa International Airport",
+        "IATA_Code": "FMA"
+      },
+      {
+        "Location": "Mar del Plata",
+        "Airport": "Ástor Piazzolla International Airport",
+        "IATA_Code": "MDQ"
+      },
+      {
+        "Location": "Mendoza",
+        "Airport": "Governor Francisco Gabrielli International Airport",
+        "IATA_Code": "MDZ"
+      },
+      {
+        "Location": "Neuquén",
+        "Airport": "Presidente Perón International Airport",
+        "IATA_Code": "NQN"
+      },
+      {
+        "Location": "Posadas",
+        "Airport": "Libertador General José de San Martín Airport",
+        "IATA_Code": "PSS"
+      },
+      {
+        "Location": "Puerto Iguazú",
+        "Airport": "Cataratas del Iguazú International Airport",
+        "IATA_Code": "IGR"
+      },
+      {
+        "Location": "Resistencia",
+        "Airport": "Resistencia International Airport",
+        "IATA_Code": "RES"
+      },
+      {
+        "Location": "Río Gallegos",
+        "Airport": "Piloto Civil Norberto Fernández International Airport",
+        "IATA_Code": "RGL"
+      },
+      {
+        "Location": "Río Grande",
+        "Airport": "Hermes Quijada International Airport",
+        "IATA_Code": "RGA"
+      },
+      {
+        "Location": "Rosario",
+        "Airport": "Rosario – Islas Malvinas International Airport",
+        "IATA_Code": "ROS"
+      },
+      {
+        "Location": "Salta",
+        "Airport": "Martín Miguel de Güemes International Airport",
+        "IATA_Code": "SLA"
+      },
+      {
+        "Location": "San Miguel de Tucumán",
+        "Airport": "Teniente Benjamín Matienzo International Airport",
+        "IATA_Code": "TUC"
+      },
+      {
+        "Location": "San Salvador de Jujuy",
+        "Airport": "Gobernador Horacio Guzmán International Airport",
+        "IATA_Code": "JUJ"
+      },
+      {
+        "Location": "Santa Rosa del Conlara",
+        "Airport": "Valle del Conlara Airport",
+        "IATA_Code": "RLO"
+      },
+      {
+        "Location": "Termas de Río Hondo",
+        "Airport": "Termas de Río Hondo International Airport",
+        "IATA_Code": "RHD"
+      },
+      {
+        "Location": "Trelew",
+        "Airport": "Almirante Marcos A. Zar Airport",
+        "IATA_Code": "REL"
+      },
+      {
+        "Location": "Ushuaia",
+        "Airport": "Ushuaia – Malvinas Argentinas International Airport",
+        "IATA_Code": "USH"
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "Cities": [
+      {
+        "Location": "Aracaju",
+        "Airport": "Santa Maria Airport",
+        "IATA_Code": "AJU"
+      },
+      {
+        "Location": "Belém",
+        "Airport": "Val de Cães International Airport",
+        "IATA_Code": "BEL"
+      },
+      {
+        "Location": "Belo Horizonte",
+        "Airport": "Tancredo Neves International Airport",
+        "IATA_Code": "CNF"
+      },
+      {
+        "Location": "Boa Vista",
+        "Airport": "Boa Vista International Airport",
+        "IATA_Code": "BVB"
+      },
+      {
+        "Location": "Brasília",
+        "Airport": "Brasília International Airport",
+        "IATA_Code": "BSB"
+      },
+      {
+        "Location": "Campinas",
+        "Airport": "Viracopos International Airport",
+        "IATA_Code": "VCP"
+      },
+      {
+        "Location": "Campo Grande",
+        "Airport": "Campo Grande International Airport",
+        "IATA_Code": "CGR"
+      },
+      {
+        "Location": "Cuiabá",
+        "Airport": "Marechal Rondon International Airport",
+        "IATA_Code": "CGB"
+      },
+      {
+        "Location": "Curitiba",
+        "Airport": "Afonso Pena International Airport",
+        "IATA_Code": "CWB"
+      },
+      {
+        "Location": "Florianópolis",
+        "Airport": "Hercílio Luz International Airport",
+        "IATA_Code": "FLN"
+      },
+      {
+        "Location": "Fortaleza",
+        "Airport": "Pinto Martins International Airport",
+        "IATA_Code": "FOR"
+      },
+      {
+        "Location": "Foz do Iguaçu",
+        "Airport": "Foz do Iguaçu International Airport",
+        "IATA_Code": "IGU"
+      },
+      {
+        "Location": "Goiânia",
+        "Airport": "Santa Genoveva Airport",
+        "IATA_Code": "GYN"
+      },
+      {
+        "Location": "João Pessoa",
+        "Airport": "Presidente Castro Pinto International Airport",
+        "IATA_Code": "JPA"
+      },
+      {
+        "Location": "Maceió",
+        "Airport": "Zumbi dos Palmares International Airport",
+        "IATA_Code": "MCZ"
+      },
+      {
+        "Location": "Manaus",
+        "Airport": "Eduardo Gomes International Airport",
+        "IATA_Code": "MAO"
+      },
+      {
+        "Location": "Natal",
+        "Airport": "Greater Natal International Airport",
+        "IATA_Code": "NAT"
+      },
+      {
+        "Location": "Petrolina",
+        "Airport": "Petrolina Airport",
+        "IATA_Code": "PNZ"
+      },
+      {
+        "Location": "Porto Alegre",
+        "Airport": "Salgado Filho Porto Alegre International Airport",
+        "IATA_Code": "POA"
+      },
+      {
+        "Location": "Porto Velho",
+        "Airport": "Governador Jorge Teixeira de Oliveira International Airport",
+        "IATA_Code": "PVH"
+      },
+      {
+        "Location": "Recife",
+        "Airport": "Guararapes International Airport",
+        "IATA_Code": "REC"
+      },
+      {
+        "Location": "Rio Branco",
+        "Airport": "Rio Branco International Airport",
+        "IATA_Code": "RBR"
+      },
+      {
+        "Location": "Rio de Janeiro",
+        "Airport": "Rio de Janeiro/Galeão International Airport",
+        "IATA_Code": "GIG"
+      },
+      {
+        "Location": "Rio de Janeiro",
+        "Airport": "Santos Dumont Airport",
+        "IATA_Code": "SDU"
+      },
+      {
+        "Location": "Salvador",
+        "Airport": "Deputado Luís Eduardo Magalhães International Airport",
+        "IATA_Code": "SSA"
+      },
+      {
+        "Location": "São Luís",
+        "Airport": "Marechal Cunha Machado International Airport",
+        "IATA_Code": "SLZ"
+      },
+      {
+        "Location": "São Paulo",
+        "Airport": "São Paulo–Congonhas Airport",
+        "IATA_Code": "CGH"
+      },
+      {
+        "Location": "São Paulo",
+        "Airport": "São Paulo/Guarulhos International Airport",
+        "IATA_Code": "GRU"
+      },
+      {
+        "Location": "Teresina",
+        "Airport": "Teresina Airport",
+        "IATA_Code": "THE"
+      },
+      {
+        "Location": "Uberlândia",
+        "Airport": "Uberlândia Airport",
+        "IATA_Code": "UDI"
+      },
+      {
+        "Location": "Vitória",
+        "Airport": "Eurico de Aguiar Salles Airport",
+        "IATA_Code": "VIX"
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "Cities": [
+      {
+        "Location": "Calgary",
+        "Airport": "Calgary International Airport",
+        "IATA_Code": "YYC"
+      },
+      {
+        "Location": "Edmonton",
+        "Airport": "Edmonton International Airport",
+        "IATA_Code": "YEG"
+      },
+      {
+        "Location": "Fredericton",
+        "Airport": "Fredericton International Airport",
+        "IATA_Code": "YFC"
+      },
+      {
+        "Location": "Gander",
+        "Airport": "Gander International Airport",
+        "IATA_Code": "YQX"
+      },
+      {
+        "Location": "Halifax",
+        "Airport": "Halifax Stanfield International Airport",
+        "IATA_Code": "YHZ"
+      },
+      {
+        "Location": "Moncton",
+        "Airport": "Greater Moncton Roméo LeBlanc International Airport",
+        "IATA_Code": "YQM"
+      },
+      {
+        "Location": "Montreal",
+        "Airport": "Montréal–Trudeau International Airport",
+        "IATA_Code": "YUL"
+      },
+      {
+        "Location": "Ottawa",
+        "Airport": "Ottawa Macdonald–Cartier International Airport",
+        "IATA_Code": "YOW"
+      },
+      {
+        "Location": "Quebec City",
+        "Airport": "Québec City Jean Lesage International Airport",
+        "IATA_Code": "YQB"
+      },
+      {
+        "Location": "Regina",
+        "Airport": "Regina International Airport",
+        "IATA_Code": "YQR"
+      },
+      {
+        "Location": "St. John's",
+        "Airport": "St. John's International Airport",
+        "IATA_Code": "YYT"
+      },
+      {
+        "Location": "Thunder Bay",
+        "Airport": "Thunder Bay International Airport",
+        "IATA_Code": "YQT"
+      },
+      {
+        "Location": "Toronto",
+        "Airport": "Toronto Pearson International Airport",
+        "IATA_Code": "YYZ"
+      },
+      {
+        "Location": "Vancouver",
+        "Airport": "Vancouver International Airport",
+        "IATA_Code": "YVR"
+      },
+      {
+        "Location": "Winnipeg",
+        "Airport": "Winnipeg James Armstrong Richardson International Airport",
+        "IATA_Code": "YWG"
+      }
+    ]
+  }
+
+]

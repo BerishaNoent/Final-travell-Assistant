@@ -1,0 +1,68 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-frontend
+spec:
+  selector:
+    app: user-frontend
+  ports:
+    - protocol: TCP
+      port: 3002
+      targetPort: 3002
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: car-rental-frontend
+spec:
+  selector:
+    app: car-rental-frontend
+  ports:
+    - protocol: TCP
+      port: 3009
+      targetPort: 3009
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: combined-frontend
+spec:
+  selector:
+    app: combined-frontend
+  ports:
+    - protocol: TCP
+      port: 3008
+      targetPort: 3008
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hotel-frontend
+spec:
+  selector:
+    app: hotel-frontend
+  ports:
+    - protocol: TCP
+      port: 3007
+      targetPort: 3007
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flight-frontend
+spec:
+  selector:
+    app: flight-frontend
+  ports:
+    - protocol: TCP
+      port: 3010
+      targetPort: 3010
+  type: LoadBalancer

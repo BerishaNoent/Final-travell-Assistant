@@ -1,0 +1,151 @@
+version: '3.7'
+
+services:
+
+  user-frontend:
+    build:
+      context: ./frontend/users
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+
+  car-rental-frontend:
+    build:
+      context: ./frontend/carRental
+      dockerfile: Dockerfile
+    ports:
+      - "3009:3009"
+
+  combined-frontend:
+    build:
+      context: ./frontend/CombinedFrontend
+      dockerfile: Dockerfile
+    ports:
+      - "3008:3008"
+
+  hotel-frontend:
+    build:
+      context: ./frontend/hotel
+      dockerfile: Dockerfile
+    ports:
+      - "3007:3007"
+
+  flight-frontend:
+    build:
+      context: ./frontend/flights2
+      dockerfile: Dockerfile
+    ports:
+      - "3010:3010"
+
+  filtering-sorting-service:
+    image: noenti/m-filtering-sorting-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8084:8084"
+    networks:
+      - criteria-network
+    depends_on:
+      - naming-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
+
+  
+  criteria-based-search-service:
+    image: noenti/m-criteria-based-search-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    networks:
+      - criteria-network
+    depends_on:
+      - naming-server
+      - mongodb
+    volumes:
+      - ./criteria-based-search-service/src/main/resources/travellingassitant-a7fd18972b0b.json:/travellingassitant-a7fd18972b0b.json
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
+      - SPRING_CLOUD_GCP_PROJECT_ID=travellingassitant
+      - SPRING_CLOUD_GCP_CREDENTIALS_LOCATION=file:/travellingassitant-a7fd18972b0b.json
+      - SPRING_CLOUD_GCP_PUBSUB_ENABLED=true
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/criteria
+
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - criteria-network
+    ports:
+    - "27017:27017"
+
+  mongodb2:
+    image: mongo:latest
+    volumes:
+      - mongodb-data2:/data/db
+    networks:
+      - criteria-network
+    ports:
+      - "27019:27017"
+
+  api-gateway:
+    image: noenti/m-api-gateway:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8765:8765"
+    networks:
+      - criteria-network
+    depends_on:
+      - naming-server
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
+
+  user-management-service:
+    image: noenti/m-user-management-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8083:8083"
+    networks:
+      - criteria-network
+    depends_on:
+      - naming-server
+      - mongodb2
+    volumes:
+      - ./user-management-service/src/main/resources/travellingassitant-a7fd18972b0b.json:/travellingassitant-a7fd18972b0b.json
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
+      - SPRING_CLOUD_GCP_PROJECT_ID=travellingassitant
+      - SPRING_CLOUD_GCP_CREDENTIALS_LOCATION=file:/travellingassitant-a7fd18972b0b.json
+      - SPRING_CLOUD_GCP_PUBSUB_ENABLED=true
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb2:27017/usermanagement
+
+  hotel-search-service:
+    image: noenti/m-hotel-search-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8081:8081"
+    networks:
+      - criteria-network
+    depends_on:
+      - naming-server
+    volumes:
+      - ./hotel-search-service/src/main/resources/travellingassitant-a7fd18972b0b.json:/travellingassitant-a7fd18972b0b.json
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
+      - SPRING_CLOUD_GCP_PROJECT_ID=travellingassitant
+      - SPRING_CLOUD_GCP_CREDENTIALS_LOCATION=file:/travellingassitant-a7fd18972b0b.json
+      - SPRING_CLOUD_GCP_PUBSUB_ENABLED=true
+
+  naming-server:
+    image: noenti/m-naming-server:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8761:8761"
+    networks:
+      - criteria-network
+
+networks:
+  criteria-network:
+
+volumes:
+  mongodb-data:
+  mongodb-data2:

@@ -1,0 +1,267 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: filtering-sorting-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: filtering-sorting-service
+  template:
+    metadata:
+      labels:
+        app: filtering-sorting-service
+    spec:
+      containers:
+      - name: filtering-sorting-service
+        image: noenti/travelling-assistant:filtering-sorting-service
+        ports:
+        - containerPort: 8084
+        resources:
+          limits:
+            memory: "700Mi"
+        env:
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://naming-server:8761/eureka"
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: criteria-based-search-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: criteria-based-search-service
+  template:
+    metadata:
+      labels:
+        app: criteria-based-search-service
+    spec:
+      containers:
+      - name: criteria-based-search-service
+        image: noenti/travelling-assistant:criteria-based-search-service
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            memory: "700Mi"
+        volumeMounts:
+        - name: gcp-credentials
+          mountPath: /travellingassitant-a7fd18972b0b.json
+          subPath: travellingassitant-a7fd18972b0b.json
+        env:
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://naming-server:8761/eureka"
+        - name: SPRING_CLOUD_GCP_PROJECT_ID
+          value: "travellingassitant"
+        - name: SPRING_CLOUD_GCP_CREDENTIALS_LOCATION
+          value: "file:/travellingassitant-a7fd18972b0b.json"
+        - name: SPRING_CLOUD_GCP_PUBSUB_ENABLED
+          value: "true"
+        - name: SPRING_DATA_MONGODB_URI
+          value: "mongodb://mongodb:27017/criteria"
+      volumes:
+      - name: gcp-credentials
+        configMap:
+          name: gcp-credentials
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+      - name: api-gateway
+        image: noenti/travelling-assistant:api-gateway
+        ports:
+        - containerPort: 8765
+        resources:
+          limits:
+            memory: "700Mi"
+        env:
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://naming-server:8761/eureka"
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-management-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user-management-service
+  template:
+    metadata:
+      labels:
+        app: user-management-service
+    spec:
+      containers:
+      - name: user-management-service
+        image: noenti/travelling-assistant:tagname
+        ports:
+        - containerPort: 8083
+        resources:
+          limits:
+            memory: "700Mi"
+        volumeMounts:
+        - name: gcp-credentials
+          mountPath: /travellingassitant-a7fd18972b0b.json
+          subPath: travellingassitant-a7fd18972b0b.json
+        env:
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://naming-server:8761/eureka"
+        - name: SPRING_CLOUD_GCP_PROJECT_ID
+          value: "travellingassitant"
+        - name: SPRING_CLOUD_GCP_CREDENTIALS_LOCATION
+          value: "file:/travellingassitant-a7fd18972b0b.json"
+        - name: SPRING_CLOUD_GCP_PUBSUB_ENABLED
+          value: "true"
+        - name: SPRING_DATA_MONGODB_URI
+          value: "mongodb://mongodb2:27017/usermanagement"
+      volumes:
+      - name: gcp-credentials
+        configMap:
+          name: gcp-credentials
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotel-search-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hotel-search-service
+  template:
+    metadata:
+      labels:
+        app: hotel-search-service
+    spec:
+      containers:
+      - name: hotel-search-service
+        image: noenti/travelling-assistant:hotel-search-service
+        ports:
+        - containerPort: 8081
+        resources:
+          limits:
+            memory: "700Mi"
+        volumeMounts:
+        - name: gcp-credentials
+          mountPath: /travellingassitant-a7fd18972b0b.json
+          subPath: travellingassitant-a7fd18972b0b.json
+        env:
+        - name: EUREKA_CLIENT_SERVICEURL_DEFAULTZONE
+          value: "http://naming-server:8761/eureka"
+        - name: SPRING_CLOUD_GCP_PROJECT_ID
+          value: "travellingassitant"
+        - name: SPRING_CLOUD_GCP_CREDENTIALS_LOCATION
+          value: "file:/travellingassitant-a7fd18972b0b.json"
+        - name: SPRING_CLOUD_GCP_PUBSUB_ENABLED
+          value: "true"
+      volumes:
+      - name: gcp-credentials
+        configMap:
+          name: gcp-credentials
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: naming-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: naming-server
+  template:
+    metadata:
+      labels:
+        app: naming-server
+    spec:
+      containers:
+      - name: naming-server
+        image: noenti/travelling-assistant:naming-server
+        ports:
+        - containerPort: 8761
+        resources:
+          limits:
+            memory: "700Mi"
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: mongo:latest
+        ports:
+        - containerPort: 27017
+        volumeMounts:
+        - name: mongodb-data
+          mountPath: /data/db
+      volumes:
+      - name: mongodb-data
+        persistentVolumeClaim:
+          claimName: mongodb-pvc
+      restartPolicy: Always
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb2
+  template:
+    metadata:
+      labels:
+        app: mongodb2
+    spec:
+      containers:
+      - name: mongodb2
+        image: mongo:latest
+        ports:
+        - containerPort: 27017
+        volumeMounts:
+        - name: mongodb-data2
+          mountPath: /data/db
+      volumes:
+      - name: mongodb-data2
+        persistentVolumeClaim:
+          claimName: mongodb2-pvc
+      restartPolicy: Always
