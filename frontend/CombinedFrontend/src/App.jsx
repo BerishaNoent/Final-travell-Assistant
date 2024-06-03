@@ -85,7 +85,7 @@ const App = () => {
             element={
               <ProtectedRoute path="/admin">
                 <Suspense fallback={<div>Loading...</div>}>
-                  <AdminWithToken users={users} />
+                  <AdminWithToken />
                 </Suspense>
               </ProtectedRoute>
             }
@@ -135,7 +135,7 @@ const App = () => {
             element={
               <ProtectedRoute>
                 <Suspense fallback={<div>Loading...</div>}>
-                  <UserManagementWithToken user={user} />
+                  <UserManagementWithToken />
                 </Suspense>
               </ProtectedRoute>
             }

@@ -1,7 +1,6 @@
 version: '3.7'
 
 services:
-
   user-frontend:
     build:
       context: ./frontend/users
@@ -49,7 +48,6 @@ services:
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://naming-server:8761/eureka
 
-  
   criteria-based-search-service:
     image: noenti/m-criteria-based-search-service:0.0.1-SNAPSHOT
     mem_limit: 700m
@@ -72,16 +70,16 @@ services:
   mongodb:
     image: mongo:latest
     volumes:
-      - mongodb-data:/data/db
+      - ./mongodb_data:/data/db
     networks:
       - criteria-network
     ports:
-    - "27017:27017"
+      - "27017:27017"
 
   mongodb2:
     image: mongo:latest
     volumes:
-      - mongodb-data2:/data/db
+      - ./mongodb2_data:/data/db
     networks:
       - criteria-network
     ports:

@@ -42,7 +42,7 @@ public class AuthenticationService {
         .city(request.getCity())
         .address(request.getAddress())
         .DateOfBirth(request.getDateOfBirth())
-        .role(Role.USER)
+        .role(Role.ADMIN)
         .build();
     repository.save(user);
     var jwtToken = jwtService.generateToken(user);
