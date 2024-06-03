@@ -56,30 +56,6 @@ For each of the backend services you have to go to their rot directory and run t
 
 Before running the services, you need to ensure the volumes are created and, if necessary, populated with data.
 
-1. **Create Docker Volumes**
-
-   Run the following commands to create Docker volumes:
-
-   ```bash
-   docker volume create mongodb-data
-   docker volume create mongodb-data2
-   ```
-
-2. **(Optional) Populate Volumes with Data**
-
-  You need to run the following commands to get the volumes.
-
-   ```bash
-   docker run -d --rm --name temp_container -v mongodb-data:/volume_data alpine
-   docker cp ./local_dir temp_container:/volume_data
-   docker stop temp_container
-   ```
- docker run -d --rm --name temp_container -v mongodb-data:/volume_data alpine
-   docker cp ./local_dir temp_container:/volume_data_1
-   docker stop temp_container
-
-
-
 #### Step 3: Run the Application with Docker Compose
 
 1. **Start All Services**
